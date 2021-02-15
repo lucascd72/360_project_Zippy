@@ -1,5 +1,4 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-/* line 2, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 html {
   line-height: 1.15;
   /* 1 */
@@ -7,23 +6,19 @@ html {
   /* 2 */
 }
 
-/* line 6, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 body {
   margin: 0;
 }
 
-/* line 9, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 main {
   display: block;
 }
 
-/* line 12, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-/* line 16, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -33,7 +28,6 @@ hr {
   /* 2 */
 }
 
-/* line 21, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -41,12 +35,10 @@ pre {
   /* 2 */
 }
 
-/* line 25, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 a {
   background-color: transparent;
 }
 
-/* line 28, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -56,13 +48,11 @@ abbr[title] {
   /* 2 */
 }
 
-/* line 33, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 b,
 strong {
   font-weight: bolder;
 }
 
-/* line 37, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 code,
 kbd,
 samp {
@@ -72,12 +62,10 @@ samp {
   /* 2 */
 }
 
-/* line 43, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 small {
   font-size: 80%;
 }
 
-/* line 46, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -86,22 +74,18 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 53, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 56, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 59, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 img {
   border-style: none;
 }
 
-/* line 62, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 button,
 input,
 optgroup,
@@ -117,51 +101,44 @@ textarea {
   /* 2 */
 }
 
-/* line 72, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 button,
 input {
   /* 1 */
   overflow: visible;
 }
 
-/* line 76, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 button,
 select {
   /* 1 */
   text-transform: none;
 }
 
-/* line 80, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type=button],
+[type=reset],
+[type=submit] {
   -webkit-appearance: button;
 }
 
-/* line 86, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
 
-/* line 93, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
-/* line 99, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
 
-/* line 102, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -177,45 +154,38 @@ legend {
   /* 1 */
 }
 
-/* line 110, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 progress {
   vertical-align: baseline;
 }
 
-/* line 113, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 textarea {
   overflow: auto;
 }
 
-/* line 116, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
-[type="checkbox"],
-[type="radio"] {
+[type=checkbox],
+[type=radio] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */
 }
 
-/* line 121, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
   height: auto;
 }
 
-/* line 125, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
-[type="search"] {
+[type=search] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
   /* 2 */
 }
 
-/* line 129, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
-[type="search"]::-webkit-search-decoration {
+[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 132, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -223,22 +193,18 @@ textarea {
   /* 2 */
 }
 
-/* line 136, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 details {
   display: block;
 }
 
-/* line 139, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 summary {
   display: list-item;
 }
 
-/* line 142, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 template {
   display: none;
 }
 
-/* line 145, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_normalize.scss */
 [hidden] {
   display: none;
 }
@@ -249,22 +215,18 @@ template {
   font-weight: 600;
   src: url("../fonts/CentraNo2-Bold.woff2") format("woff2"), url("../fonts/CentraNo2-Bold.woff") format("woff"), url("../fonts/CentraNo2-Bold.ttf");
 }
-
 @font-face {
   font-display: swap;
   font-family: "CentraNo2-Book";
   font-weight: 350;
   src: url("../fonts/CentraNo2-Book.woff2") format("woff2"), url("../fonts/CentraNo2-Book.woff") format("woff"), url("../fonts/CentraNo2-Book.ttf");
 }
-
 @font-face {
   font-display: swap;
   font-family: "CentraNo2-Light";
   font-weight: 300;
   src: url("../fonts/CentraNo2-Light.woff2") format("woff2"), url("../fonts/CentraNo2-Light.woff") format("woff"), url("../fonts/CentraNo2-Light.ttf");
 }
-
-/* line 28, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_fonts.scss */
 html {
   font-family: "CentraNo2-Book", sans-serif, sans-serif;
   color: #343a40;
@@ -272,16 +234,12 @@ html {
   line-height: 1.618;
   font-size: 14px;
 }
-
 @media (min-width: 760px) {
-  /* line 28, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_fonts.scss */
   html {
     font-size: 15px;
   }
 }
-
 @media (min-width: 1440px) {
-  /* line 28, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_fonts.scss */
   html {
     font-size: 16px;
   }
@@ -290,13 +248,10 @@ html {
 /* ===================== */
 /* ======= LINKS ======= */
 /* ===================== */
-/* line 46, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_fonts.scss */
 a {
   text-decoration: none;
   color: #6c757d;
 }
-
-/* line 50, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_fonts.scss */
 a:hover {
   color: #6c757d;
 }
@@ -304,7 +259,6 @@ a:hover {
 /* ======================== */
 /* ======= HEADINGS ======= */
 /* ======================== */
-/* line 58, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_fonts.scss */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: "CentraNo2-Light", sans-serif, sans-serif;
   font-weight: 300;
@@ -312,7 +266,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   line-height: 1.414;
 }
 
-/* line 65, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_fonts.scss */
 h1, .h1, h2, .h2 {
   font-size: 2.2rem;
 }
@@ -320,17 +273,14 @@ h1, .h1, h2, .h2 {
 /* ============================== */
 /* ======= TEXT ALIGNMENT ======= */
 /* ============================== */
-/* line 72, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_fonts.scss */
 .textleft {
   text-align: left;
 }
 
-/* line 75, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_fonts.scss */
 .textcenter {
   text-align: center;
 }
 
-/* line 78, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_fonts.scss */
 .textright {
   text-align: right;
 }
@@ -338,12 +288,10 @@ h1, .h1, h2, .h2 {
 /* ===================== */
 /* ======= OTHER ======= */
 /* ===================== */
-/* line 85, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_fonts.scss */
 small, .small, footer ul li a {
   font-size: 0.8rem;
 }
 
-/* line 88, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_fonts.scss */
 .uppercase {
   text-transform: uppercase;
 }
@@ -376,8 +324,7 @@ small, .small, footer ul li a {
     }
   }
 }*/
-/* line 1, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
-.animate, a, #journal .journal-card-image img, #press .press-card-image img, #press .press-card p {
+.animate, #press .press-card p, #press .press-card-image img, #journal .journal-card-image img, a {
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   -ms-transition: all 0.4s ease;
@@ -388,594 +335,482 @@ small, .small, footer ul li a {
 /* ================================== */
 /* ======= MARGINS / PADDINGS ======= */
 /* ================================== */
-/* line 24, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginnone, #press .press-card p {
   margin: 0 !important;
 }
 
-/* line 27, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginhorizontalnone {
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
 
-/* line 31, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginverticalnone {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .margintopnone, #description .description p {
   margin-top: 0 !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginrightnone {
   margin-right: 0 !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginbottomnone {
   margin-bottom: 0 !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginleftnone {
   margin-left: 0 !important;
 }
 
-/* line 24, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingnone {
   padding: 0 !important;
 }
 
-/* line 27, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddinghorizontalnone {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 
-/* line 31, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingverticalnone {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingtopnone {
   padding-top: 0 !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingrightnone {
   padding-right: 0 !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingbottomnone {
   padding-bottom: 0 !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingleftnone {
   padding-left: 0 !important;
 }
 
-/* line 24, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginfourth {
   margin: 6px !important;
 }
 
-/* line 27, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginhorizontalfourth {
   margin-left: 6px !important;
   margin-right: 6px !important;
 }
 
-/* line 31, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginverticalfourth {
   margin-top: 6px !important;
   margin-bottom: 6px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .margintopfourth {
   margin-top: 6px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginrightfourth {
   margin-right: 6px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginbottomfourth {
   margin-bottom: 6px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginleftfourth {
   margin-left: 6px !important;
 }
 
-/* line 24, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingfourth {
   padding: 6px !important;
 }
 
-/* line 27, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddinghorizontalfourth {
   padding-left: 6px !important;
   padding-right: 6px !important;
 }
 
-/* line 31, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingverticalfourth {
   padding-top: 6px !important;
   padding-bottom: 6px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingtopfourth {
   padding-top: 6px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingrightfourth {
   padding-right: 6px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingbottomfourth {
   padding-bottom: 6px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingleftfourth {
   padding-left: 6px !important;
 }
 
-/* line 24, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginthird {
   margin: 8px !important;
 }
 
-/* line 27, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginhorizontalthird {
   margin-left: 8px !important;
   margin-right: 8px !important;
 }
 
-/* line 31, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginverticalthird {
   margin-top: 8px !important;
   margin-bottom: 8px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .margintopthird {
   margin-top: 8px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginrightthird {
   margin-right: 8px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginbottomthird {
   margin-bottom: 8px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginleftthird {
   margin-left: 8px !important;
 }
 
-/* line 24, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingthird {
   padding: 8px !important;
 }
 
-/* line 27, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddinghorizontalthird {
   padding-left: 8px !important;
   padding-right: 8px !important;
 }
 
-/* line 31, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingverticalthird {
   padding-top: 8px !important;
   padding-bottom: 8px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingtopthird {
   padding-top: 8px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingrightthird {
   padding-right: 8px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingbottomthird {
   padding-bottom: 8px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingleftthird {
   padding-left: 8px !important;
 }
 
-/* line 24, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginhalf {
   margin: 12px !important;
 }
 
-/* line 27, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginhorizontalhalf {
   margin-left: 12px !important;
   margin-right: 12px !important;
 }
 
-/* line 31, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginverticalhalf {
   margin-top: 12px !important;
   margin-bottom: 12px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .margintophalf {
   margin-top: 12px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginrighthalf {
   margin-right: 12px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginbottomhalf {
   margin-bottom: 12px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginlefthalf {
   margin-left: 12px !important;
 }
 
-/* line 24, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddinghalf {
   padding: 12px !important;
 }
 
-/* line 27, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddinghorizontalhalf {
   padding-left: 12px !important;
   padding-right: 12px !important;
 }
 
-/* line 31, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingverticalhalf {
   padding-top: 12px !important;
   padding-bottom: 12px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingtophalf {
   padding-top: 12px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingrighthalf {
   padding-right: 12px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingbottomhalf {
   padding-bottom: 12px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddinglefthalf {
   padding-left: 12px !important;
 }
 
-/* line 24, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .margintwothirds {
   margin: 16px !important;
 }
 
-/* line 27, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginhorizontaltwothirds {
   margin-left: 16px !important;
   margin-right: 16px !important;
 }
 
-/* line 31, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginverticaltwothirds {
   margin-top: 16px !important;
   margin-bottom: 16px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .margintoptwothirds {
   margin-top: 16px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginrighttwothirds {
   margin-right: 16px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginbottomtwothirds {
   margin-bottom: 16px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginlefttwothirds {
   margin-left: 16px !important;
 }
 
-/* line 24, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingtwothirds {
   padding: 16px !important;
 }
 
-/* line 27, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddinghorizontaltwothirds {
   padding-left: 16px !important;
   padding-right: 16px !important;
 }
 
-/* line 31, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingverticaltwothirds {
   padding-top: 16px !important;
   padding-bottom: 16px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingtoptwothirds {
   padding-top: 16px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingrighttwothirds {
   padding-right: 16px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingbottomtwothirds {
   padding-bottom: 16px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddinglefttwothirds {
   padding-left: 16px !important;
 }
 
-/* line 24, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginfull {
   margin: 24px !important;
 }
 
-/* line 27, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginhorizontalfull {
   margin-left: 24px !important;
   margin-right: 24px !important;
 }
 
-/* line 31, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginverticalfull {
   margin-top: 24px !important;
   margin-bottom: 24px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .margintopfull {
   margin-top: 24px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginrightfull {
   margin-right: 24px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginbottomfull, #press .press-card {
   margin-bottom: 24px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginleftfull {
   margin-left: 24px !important;
 }
 
-/* line 24, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingfull {
   padding: 24px !important;
 }
 
-/* line 27, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddinghorizontalfull {
   padding-left: 24px !important;
   padding-right: 24px !important;
 }
 
-/* line 31, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingverticalfull {
   padding-top: 24px !important;
   padding-bottom: 24px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingtopfull {
   padding-top: 24px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingrightfull {
   padding-right: 24px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingbottomfull {
   padding-bottom: 24px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingleftfull {
   padding-left: 24px !important;
 }
 
-/* line 24, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginoneandhalf {
   margin: 36px !important;
 }
 
-/* line 27, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginhorizontaloneandhalf {
   margin-left: 36px !important;
   margin-right: 36px !important;
 }
 
-/* line 31, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginverticaloneandhalf {
   margin-top: 36px !important;
   margin-bottom: 36px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .margintoponeandhalf {
   margin-top: 36px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginrightoneandhalf {
   margin-right: 36px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginbottomoneandhalf {
   margin-bottom: 36px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginleftoneandhalf {
   margin-left: 36px !important;
 }
 
-/* line 24, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingoneandhalf {
   padding: 36px !important;
 }
 
-/* line 27, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddinghorizontaloneandhalf {
   padding-left: 36px !important;
   padding-right: 36px !important;
 }
 
-/* line 31, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingverticaloneandhalf {
   padding-top: 36px !important;
   padding-bottom: 36px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingtoponeandhalf {
   padding-top: 36px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingrightoneandhalf {
   padding-right: 36px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingbottomoneandhalf {
   padding-bottom: 36px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingleftoneandhalf {
   padding-left: 36px !important;
 }
 
-/* line 24, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .margindouble {
   margin: 48px !important;
 }
 
-/* line 27, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginhorizontaldouble {
   margin-left: 48px !important;
   margin-right: 48px !important;
 }
 
-/* line 31, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginverticaldouble {
   margin-top: 48px !important;
   margin-bottom: 48px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .margintopdouble {
   margin-top: 48px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginrightdouble {
   margin-right: 48px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginbottomdouble {
   margin-bottom: 48px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .marginleftdouble {
   margin-left: 48px !important;
 }
 
-/* line 24, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingdouble {
   padding: 48px !important;
 }
 
-/* line 27, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddinghorizontaldouble {
   padding-left: 48px !important;
   padding-right: 48px !important;
 }
 
-/* line 31, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingverticaldouble {
   padding-top: 48px !important;
   padding-bottom: 48px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingtopdouble {
   padding-top: 48px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingrightdouble {
   padding-right: 48px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingbottomdouble {
   padding-bottom: 48px !important;
 }
 
-/* line 36, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .paddingleftdouble {
   padding-left: 48px !important;
 }
@@ -983,82 +818,66 @@ small, .small, footer ul li a {
 /* ==================================== */
 /* ======= COLORS / BACKGROUNDS ======= */
 /* ==================================== */
-/* line 46, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .primary {
   color: #ed282d;
 }
 
-/* line 49, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .secondary {
   color: #fad33c;
 }
 
-/* line 52, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .graydark {
   color: #343a40;
 }
 
-/* line 55, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .gray {
   color: #6c757d;
 }
 
-/* line 58, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .graylight {
   color: #f3f3f3;
 }
 
-/* line 61, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .graymedium {
   color: #657a8e;
 }
 
-/* line 64, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .white {
   color: #f8f9fa;
 }
 
-/* line 67, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .black {
   color: #000;
 }
 
-/* line 70, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .bg-primary {
   background-color: #ed282d;
 }
 
-/* line 73, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .bg-secondary {
   background-color: #fad33c;
 }
 
-/* line 76, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .bg-gray {
   background-color: #6c757d;
 }
 
-/* line 79, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .bg-graydark {
   background-color: #343a40;
 }
 
-/* line 82, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .bg-graylight {
   background-color: #f3f3f3;
 }
 
-/* line 85, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .bg-white {
   background-color: #f8f9fa;
 }
 
-/* line 88, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .bg-black {
   background-color: #000;
 }
 
-/* line 91, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .bg-red {
   background-color: #ed282d;
 }
@@ -1066,14 +885,11 @@ small, .small, footer ul li a {
 /* ====================== */
 /* ======= IMAGES ======= */
 /* ====================== */
-/* line 98, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .imgfit {
   display: block;
   width: 100%;
   height: auto;
 }
-
-/* line 102, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .imgfit img, .imgfit source {
   display: block;
   width: 100%;
@@ -1083,120 +899,90 @@ small, .small, footer ul li a {
 /* ===================================== */
 /* ======= RESPONSIVE VISIBILITY ======= */
 /* ===================================== */
-/* line 112, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .visivel-m {
   display: block;
 }
-
 @media (min-width: 760px) {
-  /* line 112, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
   .visivel-m {
     display: none;
   }
 }
-
 @media (min-width: 1440px) {
-  /* line 112, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
   .visivel-m {
     display: none;
   }
 }
 
-/* line 121, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .visivel-t {
   display: none;
 }
-
 @media (min-width: 760px) {
-  /* line 121, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
   .visivel-t {
     display: block;
   }
 }
-
 @media (min-width: 1440px) {
-  /* line 121, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
   .visivel-t {
     display: none;
   }
 }
 
-/* line 130, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .visivel-t-down {
   display: block;
 }
-
 @media (min-width: 1440px) {
-  /* line 130, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
   .visivel-t-down {
     display: none;
   }
 }
 
-/* line 136, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .visivel-t-up {
   display: none;
 }
-
 @media (min-width: 760px) {
-  /* line 136, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
   .visivel-t-up {
     display: block;
   }
 }
 
-/* line 142, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
 .visivel-d {
   display: none;
 }
-
 @media (min-width: 760px) {
-  /* line 142, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
   .visivel-d {
     display: none;
   }
 }
-
 @media (min-width: 1440px) {
-  /* line 142, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_utils.scss */
   .visivel-d {
     display: block;
   }
 }
 
-/* line 1, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull {
   width: 100%;
 }
 
-/* line 4, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrow {
   width: 100%;
   margin: 0 auto;
 }
-
 @media (min-width: 760px) {
-  /* line 4, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrow {
     width: 90%;
   }
 }
-
 @media (min-width: 1440px) {
-  /* line 4, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrow {
     width: 1416px;
   }
 }
 
-/* line 15, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull,
 .gridrow {
   display: flex;
   flex-wrap: wrap;
 }
-
-/* line 19, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull .col,
 .gridrow .col {
   flex: 1;
@@ -1204,38 +990,28 @@ small, .small, footer ul li a {
   padding-left: 12px;
   padding-right: 12px;
 }
-
-/* line 26, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull .col-1,
 .gridrow .col-1 {
   box-sizing: border-box;
-  width: 8.33333%;
+  width: 8.3333333333%;
   padding-left: 12px;
   padding-right: 12px;
 }
-
-/* line 32, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull .offset-1,
 .gridrow .offset-1 {
-  margin-left: 8.33333%;
+  margin-left: 8.3333333333%;
 }
-
-/* line 26, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull .col-2,
 .gridrow .col-2 {
   box-sizing: border-box;
-  width: 16.66667%;
+  width: 16.6666666667%;
   padding-left: 12px;
   padding-right: 12px;
 }
-
-/* line 32, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull .offset-2,
 .gridrow .offset-2 {
-  margin-left: 16.66667%;
+  margin-left: 16.6666666667%;
 }
-
-/* line 26, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull .col-3,
 .gridrow .col-3 {
   box-sizing: border-box;
@@ -1243,44 +1019,32 @@ small, .small, footer ul li a {
   padding-left: 12px;
   padding-right: 12px;
 }
-
-/* line 32, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull .offset-3,
 .gridrow .offset-3 {
   margin-left: 25%;
 }
-
-/* line 26, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull .col-4,
 .gridrow .col-4 {
   box-sizing: border-box;
-  width: 33.33333%;
+  width: 33.3333333333%;
   padding-left: 12px;
   padding-right: 12px;
 }
-
-/* line 32, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull .offset-4,
 .gridrow .offset-4 {
-  margin-left: 33.33333%;
+  margin-left: 33.3333333333%;
 }
-
-/* line 26, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull .col-5,
 .gridrow .col-5 {
   box-sizing: border-box;
-  width: 41.66667%;
+  width: 41.6666666667%;
   padding-left: 12px;
   padding-right: 12px;
 }
-
-/* line 32, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull .offset-5,
 .gridrow .offset-5 {
-  margin-left: 41.66667%;
+  margin-left: 41.6666666667%;
 }
-
-/* line 26, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull .col-6,
 .gridrow .col-6 {
   box-sizing: border-box;
@@ -1288,44 +1052,32 @@ small, .small, footer ul li a {
   padding-left: 12px;
   padding-right: 12px;
 }
-
-/* line 32, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull .offset-6,
 .gridrow .offset-6 {
   margin-left: 50%;
 }
-
-/* line 26, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull .col-7,
 .gridrow .col-7 {
   box-sizing: border-box;
-  width: 58.33333%;
+  width: 58.3333333333%;
   padding-left: 12px;
   padding-right: 12px;
 }
-
-/* line 32, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull .offset-7,
 .gridrow .offset-7 {
-  margin-left: 58.33333%;
+  margin-left: 58.3333333333%;
 }
-
-/* line 26, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull .col-8,
 .gridrow .col-8 {
   box-sizing: border-box;
-  width: 66.66667%;
+  width: 66.6666666667%;
   padding-left: 12px;
   padding-right: 12px;
 }
-
-/* line 32, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull .offset-8,
 .gridrow .offset-8 {
-  margin-left: 66.66667%;
+  margin-left: 66.6666666667%;
 }
-
-/* line 26, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull .col-9,
 .gridrow .col-9 {
   box-sizing: border-box;
@@ -1333,44 +1085,32 @@ small, .small, footer ul li a {
   padding-left: 12px;
   padding-right: 12px;
 }
-
-/* line 32, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull .offset-9,
 .gridrow .offset-9 {
   margin-left: 75%;
 }
-
-/* line 26, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull .col-10,
 .gridrow .col-10 {
   box-sizing: border-box;
-  width: 83.33333%;
+  width: 83.3333333333%;
   padding-left: 12px;
   padding-right: 12px;
 }
-
-/* line 32, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull .offset-10,
 .gridrow .offset-10 {
-  margin-left: 83.33333%;
+  margin-left: 83.3333333333%;
 }
-
-/* line 26, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull .col-11,
 .gridrow .col-11 {
   box-sizing: border-box;
-  width: 91.66667%;
+  width: 91.6666666667%;
   padding-left: 12px;
   padding-right: 12px;
 }
-
-/* line 32, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull .offset-11,
 .gridrow .offset-11 {
-  margin-left: 91.66667%;
+  margin-left: 91.6666666667%;
 }
-
-/* line 26, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull .col-12,
 .gridrow .col-12 {
   box-sizing: border-box;
@@ -1378,358 +1118,300 @@ small, .small, footer ul li a {
   padding-left: 12px;
   padding-right: 12px;
 }
-
-/* line 32, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull .offset-12,
 .gridrow .offset-12 {
   margin-left: 100%;
 }
-
 @media (min-width: 760px) {
-  /* line 37, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-t,
-  .gridrow .col-t {
+.gridrow .col-t {
     flex: 1;
     box-sizing: border-box;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 43, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-t,
-  .gridrow .offset-t {
+.gridrow .offset-t {
     margin-left: 0;
   }
-  /* line 47, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-t-1,
-  .gridrow .col-t-1 {
+.gridrow .col-t-1 {
     box-sizing: border-box;
-    width: 8.33333%;
+    width: 8.3333333333%;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 53, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-t-1,
-  .gridrow .offset-t-1 {
-    margin-left: 8.33333%;
+.gridrow .offset-t-1 {
+    margin-left: 8.3333333333%;
   }
-  /* line 47, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-t-2,
-  .gridrow .col-t-2 {
+.gridrow .col-t-2 {
     box-sizing: border-box;
-    width: 16.66667%;
+    width: 16.6666666667%;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 53, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-t-2,
-  .gridrow .offset-t-2 {
-    margin-left: 16.66667%;
+.gridrow .offset-t-2 {
+    margin-left: 16.6666666667%;
   }
-  /* line 47, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-t-3,
-  .gridrow .col-t-3 {
+.gridrow .col-t-3 {
     box-sizing: border-box;
     width: 25%;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 53, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-t-3,
-  .gridrow .offset-t-3 {
+.gridrow .offset-t-3 {
     margin-left: 25%;
   }
-  /* line 47, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-t-4,
-  .gridrow .col-t-4 {
+.gridrow .col-t-4 {
     box-sizing: border-box;
-    width: 33.33333%;
+    width: 33.3333333333%;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 53, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-t-4,
-  .gridrow .offset-t-4 {
-    margin-left: 33.33333%;
+.gridrow .offset-t-4 {
+    margin-left: 33.3333333333%;
   }
-  /* line 47, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-t-5,
-  .gridrow .col-t-5 {
+.gridrow .col-t-5 {
     box-sizing: border-box;
-    width: 41.66667%;
+    width: 41.6666666667%;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 53, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-t-5,
-  .gridrow .offset-t-5 {
-    margin-left: 41.66667%;
+.gridrow .offset-t-5 {
+    margin-left: 41.6666666667%;
   }
-  /* line 47, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-t-6,
-  .gridrow .col-t-6 {
+.gridrow .col-t-6 {
     box-sizing: border-box;
     width: 50%;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 53, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-t-6,
-  .gridrow .offset-t-6 {
+.gridrow .offset-t-6 {
     margin-left: 50%;
   }
-  /* line 47, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-t-7,
-  .gridrow .col-t-7 {
+.gridrow .col-t-7 {
     box-sizing: border-box;
-    width: 58.33333%;
+    width: 58.3333333333%;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 53, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-t-7,
-  .gridrow .offset-t-7 {
-    margin-left: 58.33333%;
+.gridrow .offset-t-7 {
+    margin-left: 58.3333333333%;
   }
-  /* line 47, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-t-8,
-  .gridrow .col-t-8 {
+.gridrow .col-t-8 {
     box-sizing: border-box;
-    width: 66.66667%;
+    width: 66.6666666667%;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 53, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-t-8,
-  .gridrow .offset-t-8 {
-    margin-left: 66.66667%;
+.gridrow .offset-t-8 {
+    margin-left: 66.6666666667%;
   }
-  /* line 47, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-t-9,
-  .gridrow .col-t-9 {
+.gridrow .col-t-9 {
     box-sizing: border-box;
     width: 75%;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 53, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-t-9,
-  .gridrow .offset-t-9 {
+.gridrow .offset-t-9 {
     margin-left: 75%;
   }
-  /* line 47, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-t-10,
-  .gridrow .col-t-10 {
+.gridrow .col-t-10 {
     box-sizing: border-box;
-    width: 83.33333%;
+    width: 83.3333333333%;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 53, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-t-10,
-  .gridrow .offset-t-10 {
-    margin-left: 83.33333%;
+.gridrow .offset-t-10 {
+    margin-left: 83.3333333333%;
   }
-  /* line 47, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-t-11,
-  .gridrow .col-t-11 {
+.gridrow .col-t-11 {
     box-sizing: border-box;
-    width: 91.66667%;
+    width: 91.6666666667%;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 53, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-t-11,
-  .gridrow .offset-t-11 {
-    margin-left: 91.66667%;
+.gridrow .offset-t-11 {
+    margin-left: 91.6666666667%;
   }
-  /* line 47, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-t-12,
-  .gridrow .col-t-12 {
+.gridrow .col-t-12 {
     box-sizing: border-box;
     width: 100%;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 53, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-t-12,
-  .gridrow .offset-t-12 {
+.gridrow .offset-t-12 {
     margin-left: 100%;
   }
 }
-
 @media (min-width: 1440px) {
-  /* line 59, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-d,
-  .gridrow .col-d {
+.gridrow .col-d {
     flex: 1;
     box-sizing: border-box;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 65, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-d,
-  .gridrow .offset-d {
+.gridrow .offset-d {
     margin-left: 0;
   }
-  /* line 69, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-d-1,
-  .gridrow .col-d-1 {
+.gridrow .col-d-1 {
     box-sizing: border-box;
-    width: 8.33333%;
+    width: 8.3333333333%;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 75, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-d-1,
-  .gridrow .offset-d-1 {
-    margin-left: 8.33333%;
+.gridrow .offset-d-1 {
+    margin-left: 8.3333333333%;
   }
-  /* line 69, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-d-2,
-  .gridrow .col-d-2 {
+.gridrow .col-d-2 {
     box-sizing: border-box;
-    width: 16.66667%;
+    width: 16.6666666667%;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 75, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-d-2,
-  .gridrow .offset-d-2 {
-    margin-left: 16.66667%;
+.gridrow .offset-d-2 {
+    margin-left: 16.6666666667%;
   }
-  /* line 69, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-d-3,
-  .gridrow .col-d-3 {
+.gridrow .col-d-3 {
     box-sizing: border-box;
     width: 25%;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 75, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-d-3,
-  .gridrow .offset-d-3 {
+.gridrow .offset-d-3 {
     margin-left: 25%;
   }
-  /* line 69, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-d-4,
-  .gridrow .col-d-4 {
+.gridrow .col-d-4 {
     box-sizing: border-box;
-    width: 33.33333%;
+    width: 33.3333333333%;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 75, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-d-4,
-  .gridrow .offset-d-4 {
-    margin-left: 33.33333%;
+.gridrow .offset-d-4 {
+    margin-left: 33.3333333333%;
   }
-  /* line 69, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-d-5,
-  .gridrow .col-d-5 {
+.gridrow .col-d-5 {
     box-sizing: border-box;
-    width: 41.66667%;
+    width: 41.6666666667%;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 75, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-d-5,
-  .gridrow .offset-d-5 {
-    margin-left: 41.66667%;
+.gridrow .offset-d-5 {
+    margin-left: 41.6666666667%;
   }
-  /* line 69, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-d-6,
-  .gridrow .col-d-6 {
+.gridrow .col-d-6 {
     box-sizing: border-box;
     width: 50%;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 75, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-d-6,
-  .gridrow .offset-d-6 {
+.gridrow .offset-d-6 {
     margin-left: 50%;
   }
-  /* line 69, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-d-7,
-  .gridrow .col-d-7 {
+.gridrow .col-d-7 {
     box-sizing: border-box;
-    width: 58.33333%;
+    width: 58.3333333333%;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 75, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-d-7,
-  .gridrow .offset-d-7 {
-    margin-left: 58.33333%;
+.gridrow .offset-d-7 {
+    margin-left: 58.3333333333%;
   }
-  /* line 69, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-d-8,
-  .gridrow .col-d-8 {
+.gridrow .col-d-8 {
     box-sizing: border-box;
-    width: 66.66667%;
+    width: 66.6666666667%;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 75, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-d-8,
-  .gridrow .offset-d-8 {
-    margin-left: 66.66667%;
+.gridrow .offset-d-8 {
+    margin-left: 66.6666666667%;
   }
-  /* line 69, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-d-9,
-  .gridrow .col-d-9 {
+.gridrow .col-d-9 {
     box-sizing: border-box;
     width: 75%;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 75, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-d-9,
-  .gridrow .offset-d-9 {
+.gridrow .offset-d-9 {
     margin-left: 75%;
   }
-  /* line 69, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-d-10,
-  .gridrow .col-d-10 {
+.gridrow .col-d-10 {
     box-sizing: border-box;
-    width: 83.33333%;
+    width: 83.3333333333%;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 75, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-d-10,
-  .gridrow .offset-d-10 {
-    margin-left: 83.33333%;
+.gridrow .offset-d-10 {
+    margin-left: 83.3333333333%;
   }
-  /* line 69, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-d-11,
-  .gridrow .col-d-11 {
+.gridrow .col-d-11 {
     box-sizing: border-box;
-    width: 91.66667%;
+    width: 91.6666666667%;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 75, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-d-11,
-  .gridrow .offset-d-11 {
-    margin-left: 91.66667%;
+.gridrow .offset-d-11 {
+    margin-left: 91.6666666667%;
   }
-  /* line 69, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .col-d-12,
-  .gridrow .col-d-12 {
+.gridrow .col-d-12 {
     box-sizing: border-box;
     width: 100%;
     padding-left: 12px;
     padding-right: 12px;
   }
-  /* line 75, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
   .gridrowfull .offset-d-12,
-  .gridrow .offset-d-12 {
+.gridrow .offset-d-12 {
     margin-left: 100%;
   }
 }
-
-/* line 81, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull.nogutter .col,
 .gridrowfull.nogutter .col-t,
 .gridrowfull.nogutter .col-d,
@@ -1738,8 +1420,6 @@ small, .small, footer ul li a {
 .gridrow.nogutter .col-d {
   padding: 0;
 }
-
-/* line 87, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull.nogutter .col-1,
 .gridrowfull.nogutter .col-t-1,
 .gridrowfull.nogutter .col-d-1,
@@ -1748,8 +1428,6 @@ small, .small, footer ul li a {
 .gridrow.nogutter .col-d-1 {
   padding: 0;
 }
-
-/* line 87, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull.nogutter .col-2,
 .gridrowfull.nogutter .col-t-2,
 .gridrowfull.nogutter .col-d-2,
@@ -1758,8 +1436,6 @@ small, .small, footer ul li a {
 .gridrow.nogutter .col-d-2 {
   padding: 0;
 }
-
-/* line 87, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull.nogutter .col-3,
 .gridrowfull.nogutter .col-t-3,
 .gridrowfull.nogutter .col-d-3,
@@ -1768,8 +1444,6 @@ small, .small, footer ul li a {
 .gridrow.nogutter .col-d-3 {
   padding: 0;
 }
-
-/* line 87, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull.nogutter .col-4,
 .gridrowfull.nogutter .col-t-4,
 .gridrowfull.nogutter .col-d-4,
@@ -1778,8 +1452,6 @@ small, .small, footer ul li a {
 .gridrow.nogutter .col-d-4 {
   padding: 0;
 }
-
-/* line 87, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull.nogutter .col-5,
 .gridrowfull.nogutter .col-t-5,
 .gridrowfull.nogutter .col-d-5,
@@ -1788,8 +1460,6 @@ small, .small, footer ul li a {
 .gridrow.nogutter .col-d-5 {
   padding: 0;
 }
-
-/* line 87, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull.nogutter .col-6,
 .gridrowfull.nogutter .col-t-6,
 .gridrowfull.nogutter .col-d-6,
@@ -1798,8 +1468,6 @@ small, .small, footer ul li a {
 .gridrow.nogutter .col-d-6 {
   padding: 0;
 }
-
-/* line 87, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull.nogutter .col-7,
 .gridrowfull.nogutter .col-t-7,
 .gridrowfull.nogutter .col-d-7,
@@ -1808,8 +1476,6 @@ small, .small, footer ul li a {
 .gridrow.nogutter .col-d-7 {
   padding: 0;
 }
-
-/* line 87, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull.nogutter .col-8,
 .gridrowfull.nogutter .col-t-8,
 .gridrowfull.nogutter .col-d-8,
@@ -1818,8 +1484,6 @@ small, .small, footer ul li a {
 .gridrow.nogutter .col-d-8 {
   padding: 0;
 }
-
-/* line 87, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull.nogutter .col-9,
 .gridrowfull.nogutter .col-t-9,
 .gridrowfull.nogutter .col-d-9,
@@ -1828,8 +1492,6 @@ small, .small, footer ul li a {
 .gridrow.nogutter .col-d-9 {
   padding: 0;
 }
-
-/* line 87, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull.nogutter .col-10,
 .gridrowfull.nogutter .col-t-10,
 .gridrowfull.nogutter .col-d-10,
@@ -1838,8 +1500,6 @@ small, .small, footer ul li a {
 .gridrow.nogutter .col-d-10 {
   padding: 0;
 }
-
-/* line 87, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull.nogutter .col-11,
 .gridrowfull.nogutter .col-t-11,
 .gridrowfull.nogutter .col-d-11,
@@ -1848,8 +1508,6 @@ small, .small, footer ul li a {
 .gridrow.nogutter .col-d-11 {
   padding: 0;
 }
-
-/* line 87, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_grid.scss */
 .gridrowfull.nogutter .col-12,
 .gridrowfull.nogutter .col-t-12,
 .gridrowfull.nogutter .col-d-12,
@@ -1859,19 +1517,16 @@ small, .small, footer ul li a {
   padding: 0;
 }
 
-/* line 1, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_header.scss */
 body {
   /* #promobar {
-    font-size: 0.7rem;
-    line-height: $gridgutter;
-    letter-spacing: 1px;
-    @media (min-width: $desktop) {
-      letter-spacing: 1px;
-    }
-  }*/
+     font-size: 0.7rem;
+     line-height: $gridgutter;
+     letter-spacing: 1px;
+     @media (min-width: $desktop) {
+       letter-spacing: 1px;
+     }
+   }*/
 }
-
-/* line 11, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_header.scss */
 body > header .navbarWrapper {
   background-color: #f8f9fa;
   width: 100% !important;
@@ -1879,8 +1534,6 @@ body > header .navbarWrapper {
   top: 0;
   z-index: 1000;
 }
-
-/* line 19, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_header.scss */
 body > header nav {
   height: 79.92px;
   border-bottom: 1px solid #f3f3f3;
@@ -1888,22 +1541,16 @@ body > header nav {
   align-items: center;
   background-color: #f8f9fa;
 }
-
-/* line 32, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_header.scss */
 body > header nav #logo {
   height: 36px;
   margin-top: -12px;
 }
-
-/* line 35, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_header.scss */
 body > header nav #logo > a {
   display: inline-block;
   width: 104px;
   height: auto;
   box-sizing: border-box;
 }
-
-/* line 44, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_header.scss */
 body > header nav #installButton {
   background-color: #ed282d;
   color: #f8f9fa;
@@ -1912,20 +1559,14 @@ body > header nav #installButton {
   width: 186px;
   height: 32px;
 }
-
-/* line 53, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_header.scss */
 body > header nav ul {
   height: 36px;
   list-style-type: none;
   margin: 0;
 }
-
-/* line 57, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_header.scss */
 body > header nav ul li {
   display: inline-block;
 }
-
-/* line 59, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_header.scss */
 body > header nav ul li a {
   display: inline-block;
   text-transform: uppercase;
@@ -1935,44 +1576,32 @@ body > header nav ul li a {
   height: 36px;
   letter-spacing: 1px;
 }
-
 @media (min-width: 1440px) {
-  /* line 59, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_header.scss */
   body > header nav ul li a {
     letter-spacing: 2px;
   }
 }
-
-/* line 72, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_header.scss */
 body > header nav ul#mainmenu {
   order: 3;
   display: flex;
   text-align: center;
 }
-
 @media (min-width: 760px) {
-  /* line 72, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_header.scss */
   body > header nav ul#mainmenu {
     display: block;
     order: 0;
   }
 }
-
 @media (min-width: 760px) {
-  /* line 80, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_header.scss */
   body > header nav ul#mainmenu li {
     margin-right: 8px;
   }
 }
-
 @media (min-width: 1440px) {
-  /* line 80, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_header.scss */
   body > header nav ul#mainmenu li {
     margin-right: 24px;
   }
 }
-
-/* line 93, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_header.scss */
 body > header .hero {
   height: 100vh;
   background-color: #ed282d;
@@ -1982,21 +1611,15 @@ body > header .hero {
   align-items: center;
   justify-content: space-evenly;
 }
-
-/* line 102, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_header.scss */
 body > header .hero .heroimg {
   display: flex;
   justify-content: flex-end;
 }
-
-/* line 105, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_header.scss */
 body > header .hero .heroimg img {
   margin-top: 60px;
   width: 542.4px;
   height: 518.4px;
 }
-
-/* line 111, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_header.scss */
 body > header .hero .herotext {
   padding-left: 60px;
   display: flex;
@@ -2005,14 +1628,10 @@ body > header .hero .herotext {
   justify-content: center;
   color: #f8f9fa;
 }
-
-/* line 118, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_header.scss */
 body > header .hero .herotext img {
   width: 182.4px;
   margin-bottom: 38.4px;
 }
-
-/* line 122, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_header.scss */
 body > header .hero .herotext button {
   margin-top: 50.4px;
   background-color: #f8f9fa;
@@ -2022,39 +1641,28 @@ body > header .hero .herotext button {
   width: 186px;
   height: 40px;
 }
-
-/* line 132, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_header.scss */
 body > header .hero .heroarrow {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-/* line 137, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_header.scss */
 body > header .hero .heroarrow img {
   width: 48px;
 }
 
-/* line 1, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 .badges {
   background-color: #ed282d;
   height: 127.2px;
   display: flex;
 }
-
-/* line 6, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 .badges .gridrow {
   margin-top: 48px;
 }
-
-/* line 9, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 .badges .badge {
   position: relative;
   display: flex;
   flex-direction: column;
 }
-
-/* line 15, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 .badges .badge h3 {
   display: flex;
   justify-content: center;
@@ -2062,61 +1670,46 @@ body > header .hero .heroarrow img {
   color: #f8f9fa;
   font-size: 24px;
 }
-
-/* line 22, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 .badges .badge .badge-image {
   display: flex;
   justify-content: center;
 }
-
-/* line 27, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 .badges .badge .badge-image img {
   height: 120px;
   width: 90px;
 }
 
-/* line 37, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 #test {
   height: 100vh;
 }
 
-/* line 40, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 #description {
   height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
-
-/* line 46, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 #description .description {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   margin-top: 12px;
 }
-
 @media (min-width: 760px) {
-  /* line 46, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
   #description .description {
     margin-top: 0;
   }
 }
-
-/* line 54, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 #description .description h2 {
   font-size: 36px;
   width: 480px;
   margin-bottom: 24px;
 }
-
-/* line 59, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 #description .description p {
   width: 518.4px;
   font-size: 14px;
 }
 
-/* line 70, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 #journal .journal-card {
   box-sizing: border-box;
   height: 100%;
@@ -2127,117 +1720,81 @@ body > header .hero .heroarrow img {
   flex-direction: column;
   justify-content: flex-start;
 }
-
-/* line 79, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 #journal .journal-card h3 {
   font-family: "CentraNo2-Book", sans-serif, sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   margin: 12px 0;
 }
-
-/* line 85, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 #journal .journal-card-image {
   margin-top: auto;
   background-color: #6c757d;
 }
-
-/* line 88, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 #journal .journal-card-image img {
   opacity: 0.6;
 }
-
-/* line 93, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 #journal .journal-card-small {
   height: 240px;
 }
-
-/* line 95, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 #journal .journal-card-small .fancytext {
   margin: 0;
 }
-
-/* line 98, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 #journal .journal-card-small h3 {
   font-size: 1.3rem;
   margin: 12px 0;
 }
-
 @media (min-width: 760px) {
-  /* line 93, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
   #journal .journal-card-small {
     height: 264px;
   }
 }
-
 @media (min-width: 1440px) {
-  /* line 93, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
   #journal .journal-card-small {
     height: 216px;
   }
 }
-
-/* line 108, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 #journal .journal-card-small .journal-card-image {
   margin-top: unset;
 }
-
 @media (min-width: 1440px) {
-  /* line 108, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
   #journal .journal-card-small .journal-card-image {
     margin-top: auto;
   }
 }
-
-/* line 117, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 #journal .journal-card:hover .journal-card-image img {
   opacity: 1;
 }
 
-/* line 127, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 #press .press-card {
   display: block;
 }
-
-/* line 130, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 #press .press-card-image {
   background-color: #6c757d;
 }
-
-/* line 132, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 #press .press-card-image img {
   opacity: 0.6;
 }
-
-/* line 137, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 #press .press-card p {
   background-color: #f8f9fa;
   padding: 16px;
   box-sizing: border-box;
   font-size: 0.9rem;
 }
-
-/* line 147, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 #press .press-card:hover .press-card-image img {
   opacity: 1;
 }
 
-/* line 154, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 #creatingstories {
   width: 100% !important;
   height: 518.4px;
   background-color: #ed282d;
 }
-
-/* line 158, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 #creatingstories div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
-/* line 163, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 #creatingstories div .textandshapes {
   font-size: 33.6px;
   font-family: "CentraNo2-Light", sans-serif;
@@ -2246,14 +1803,10 @@ body > header .hero .heroarrow img {
   flex-direction: row;
   justify-content: space-between;
 }
-
-/* line 171, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 #creatingstories div img {
   width: 202px;
   padding: 24px;
 }
-
-/* line 175, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_main.scss */
 #creatingstories div button {
   background-color: #f8f9fa;
   color: #ed282d;
@@ -2263,40 +1816,82 @@ body > header .hero .heroarrow img {
   height: 40px;
 }
 
-/* line 1, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_footer.scss */
+#timeline {
+  height: 200vh;
+  width: 100%;
+  position: relative;
+  background: white;
+}
+
+#timeline::after, #timeline::before {
+  height: 200vh;
+  content: " ";
+  position: absolute;
+  top: 0;
+  width: 70%;
+}
+
+#timeline::after {
+  right: 0;
+  background-color: #ED282D;
+}
+
+#timeline::before {
+  left: 0;
+  background-color: #E5E5E5;
+}
+
+#reviews {
+  height: 520px;
+  display: flex;
+  align-items: center;
+}
+#reviews .reviews {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+#reviews p {
+  text-align: start;
+  font-size: 14px;
+}
+#reviews .comments {
+  text-align: start;
+}
+#reviews .img-personal-photo {
+  border-radius: 100%;
+  width: 75.38px;
+}
+#reviews .starts-img {
+  width: 80px;
+  height: 30px;
+}
+#reviews .img-reviews-formats {
+  height: 196.8px;
+  width: 189.6px;
+}
+
 footer {
   display: flex;
   align-items: center;
   height: 120px;
   font-size: 12px;
 }
-
-/* line 8, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_footer.scss */
 footer ul {
   list-style-type: none;
 }
-
-/* line 10, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_footer.scss */
 footer ul li {
   padding-bottom: 19px;
 }
-
-/* line 16, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_footer.scss */
 footer ul li a:hover {
   color: #f3f3f3;
 }
-
-/* line 23, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_footer.scss */
 footer .stayhomelogo img {
   width: 288px;
 }
-
-/* line 27, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_footer.scss */
 footer .lojas, footer .ajuda, footer .politica, footer .socialmedia {
   height: 55px;
 }
-
-/* line 32, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_footer.scss */
 footer .socialmedia {
   display: flex;
   flex-direction: column;
@@ -2304,14 +1899,10 @@ footer .socialmedia {
   font-size: 14px;
   padding-top: 8px;
 }
-
-/* line 38, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_footer.scss */
 footer .socialmedia .facebook, footer .socialmedia .instagram {
   padding-bottom: 19px;
   display: flex;
 }
-
-/* line 42, C:/Users/smarques/Desktop/RD_PROJECT360/scss/_footer.scss */
 footer .socialmedia img {
   width: 24px;
   padding-right: 13px;

@@ -182,3 +182,67 @@
     }
 }
 }
+
+#timeline {
+    height:200vh;
+    width:100%;
+    position:relative;
+    background:white;
+}
+    #timeline::after, #timeline::before {
+        height: 200vh;
+        content:' ';
+        position: absolute;
+        top: 0;
+        width: 70%;
+}
+    #timeline::after {
+        right: 0;
+        background-color: #ED282D;
+}
+    #timeline::before {
+        left: 0;
+        background-color: #E5E5E5;
+}
+
+
+// Reviews
+
+#reviews {
+    height: 520px;
+    display: flex;
+    align-items: center;
+
+    .reviews {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    p {
+        text-align: start;
+        font-size: 14px;
+    }
+
+    .comments {
+        text-align: start;
+    }
+
+    .img-personal-photo {
+        border-radius: 100%;
+        width: 75.38px;
+    }
+    
+    .starts-img {
+        width: 80px;
+        height: 30px;
+    
+    }
+    
+    .img-reviews-formats {
+        height: 196.8px;
+        width: 189.6px;
+    }
+}
+
+
