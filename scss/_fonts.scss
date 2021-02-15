@@ -1,0 +1,119 @@
+@font-face {
+  font-display: swap;
+  font-family: "CentraNo2-Bold";
+  font-weight: 600;
+  src: url("../fonts/CentraNo2-Bold.woff2") format("woff2"),
+    url("../fonts/CentraNo2-Bold.woff") format("woff"),
+    url("../fonts/CentraNo2-Bold.ttf");
+}
+@font-face {
+  font-display: swap;
+  font-family: "CentraNo2-Book";
+  font-weight: 350;
+  src: url("../fonts/CentraNo2-Book.woff2") format("woff2"),
+    url("../fonts/CentraNo2-Book.woff") format("woff"),
+    url("../fonts/CentraNo2-Book.ttf");
+}
+@font-face {
+  font-display: swap;
+  font-family: "CentraNo2-Light";
+  font-weight: 300;
+  src: url("../fonts/CentraNo2-Light.woff2") format("woff2"),
+    url("../fonts/CentraNo2-Light.woff") format("woff"),
+    url("../fonts/CentraNo2-Light.ttf");
+}
+
+
+
+html{
+    font-family: $bodyfont, sans-serif;
+    color: $graydark;
+    font-weight: 350;
+    line-height: 1.618; // the golden ratio, baby!
+    // Setting base REM for different breakpoints:
+    font-size: 14px; //ch
+    @media(min-width: $tablet){
+      font-size: 15px;
+    }
+    @media(min-width: $desktop){
+      font-size: 16px;
+    }
+}
+
+/* ===================== */
+/* ======= LINKS ======= */
+/* ===================== */
+a{
+  @extend .animate;
+  text-decoration: none;
+  color:$gray; //ch
+  &:hover{
+    color: $gray;
+  }
+}
+
+/* ======================== */
+/* ======= HEADINGS ======= */
+/* ======================== */
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
+  font-family: $titlesfont, sans-serif;
+  font-weight: 300;
+  // remove default heading margins, 'cause fuck'em!
+  margin: 0;
+  line-height: 1.414; // the square root of "2"
+}
+h1, .h1, h2, .h2{
+  font-size: 2.2rem;
+}
+
+/* ============================== */
+/* ======= TEXT ALIGNMENT ======= */
+/* ============================== */
+.textleft{
+  text-align: left;
+}
+.textcenter{
+  text-align: center;
+}
+.textright{
+  text-align: right;
+}
+
+/* ===================== */
+/* ======= OTHER ======= */
+/* ===================== */
+small, .small{
+  font-size: 0.8rem;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+/*.central-link{
+  @extend .margintophalf;
+  @extend .textcenter;
+  width: 100%;
+  a{
+    @extend .bg-graydark;
+    @extend .white;
+    @extend .fancytext;
+    display: inline-block;
+    padding: $gridgutter / 3 $gridgutter / 2;
+    &:hover{
+      background-color: $black;
+    }
+  }
+}*/
+
+/*.central-link-light{
+  @extend .margintophalf;
+  @extend .textcenter;
+  width: 100%;
+  a{
+    @extend .fancytext;
+    display: inline-block;
+    padding: $gridgutter / 3 $gridgutter / 2;
+    &:hover{
+      color: $gray;
+    }
+  }
+}*/

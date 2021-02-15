@@ -1,0 +1,184 @@
+.badges{
+    background-color: $primary;
+    
+    height: $gridgutter * 5.3;
+    display: flex;
+    .gridrow {
+        margin-top: $gridgutter * 2;
+    }
+    .badge{
+       // @extend .marginverticalfull;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+           // background-color: $gray;
+           h3 {
+               display: flex;
+               justify-content: center; 
+               color: $titlesfont;
+               color: $white;
+               font-size: $gridgutter;
+           }
+           .badge-image {
+               //margin: 0;
+               //padding: 0;
+               display: flex;
+               justify-content: center;
+               img{
+   
+               height: 120px;
+               width: 90px;
+               }
+           }
+    }
+}
+
+
+#test {
+    height: 100vh;
+}
+#description{
+   // height: $gridgutter * 26.3;
+   height: 50vh;
+    display: flex;
+    flex-direction: column;
+        justify-content: flex-end;
+    .description{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-top: $gridgutter / 2;
+        @media(min-width: $tablet){
+            margin-top: 0;
+        }
+        h2 {
+            font-size: $gridgutter * 1.5;
+            width: $gridgutter * 20;
+            margin-bottom: $gridgutter;
+        }
+        p{
+            width: $gridgutter * 21.6;
+            font-size: 14px;
+            @extend .margintopnone;
+        }
+      
+    }
+}
+
+// nope
+ #journal{
+    .journal-card{
+        box-sizing: border-box;
+        height: 100%;
+        border-top: 2px solid $black;
+        padding-top: $gridgutter / 2;
+        padding-bottom: $gridgutter / 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        h3{
+            font-family: $bodyfont, sans-serif;
+            font-size: 1.6rem;
+            font-weight: 400;
+            margin: $gridgutter / 2 0;
+        }
+        &-image{
+            margin-top: auto;
+            background-color: $gray;
+            img{
+                @extend .animate;
+                opacity: 0.6;
+            }
+        }
+        &-small{
+            height: $gridgutter * 10;
+            .fancytext{
+                margin: 0;
+            }
+            h3{
+                font-size: 1.3rem;
+                margin: $gridgutter / 2 0;
+            } 
+            @media(min-width: $tablet){
+                height: $gridgutter * 11;
+            }
+            @media(min-width: $desktop){
+                height: $gridgutter * 9;
+            }
+            .journal-card-image{
+                margin-top: unset;
+                @media(min-width: $desktop){
+                    margin-top: auto;
+                }
+            }
+        }
+        &:hover{
+            .journal-card-image{
+                img{
+                    opacity: 1;
+                }
+            }
+        }
+    }
+} 
+// nope
+
+#press{
+    .press-card{
+        @extend .marginbottomfull;
+        display: block;
+        &-image{
+            background-color: $gray;
+            img{
+                @extend .animate;
+                opacity: 0.6;
+            }
+        }
+        p{
+            @extend .animate;
+            @extend .marginnone;
+            background-color: $white;
+            padding: $gridgutter / 3 * 2;
+            box-sizing: border-box;
+            font-size: 0.9rem;
+        }
+        &:hover{
+            .press-card-image{
+                img{
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+#creatingstories {
+         width: 100% !important; 
+    height: $gridgutter * 21.6;
+    background-color: $primary;
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .textandshapes {
+            font-size: $gridgutter * 1.4;
+            font-family: $titlesfont;
+            color: $white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        img {
+            width: 202px;
+            padding: $gridgutter;
+    }
+    button {
+        background-color: $white;
+        color: $primary;
+        border: none;
+        cursor: pointer;
+        width: 186px;
+        height: 40px;
+    }
+}
+}

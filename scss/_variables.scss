@@ -1,0 +1,43 @@
+$titlesfont: "CentraNo2-Light", sans-serif; //ch
+$titlesfontweights: "300"; //ch
+$bodyfont: "CentraNo2-Book", sans-serif; //ch
+$bodyfontweights: "350"; //ch
+
+$primary: #ed282d; //ch
+$secondary: #fad33c; //ch
+$graydark: #343a40; //ch
+$gray: #6c757d; //dn
+$graylight: #f3f3f3;  //dn
+$white: #f8f9fa; //ch
+$black: #000; //dn
+
+$animationtime: 0.4s;
+
+$tablet: 760px; //ch
+$desktop: 1440px; //ch
+
+$gridcolumns: 12;
+$gridgutter: 24px;  //ch
+
+$gridwidth: 100%;
+$gridwidtht: 90%;
+$gridwidthd: $desktop - $gridgutter;
+
+
+$icomoon-font-family: "editstore" !default; // remove it later together with icons
+$icomoon-font-path: "../fonts" !default; // and this too
+
+$icn-star: "\f005";
+$icn-facebook: "\e900";
+$icn-pinterest: "\e901";
+$icn-twitter: "\e902";
+$icn-chevron-down: "\e903";
+$icn-chevron-left: "\e904";
+$icn-chevron-right: "\e905";
+$icn-chevron-up: "\e906";
+$icn-heart: "\e907";
+$icn-minus: "\e908";
+$icn-plus: "\e909";
+$icn-reload: "\e90a";
+$icn-search: "\e90b";
+$icn-shopping-cart: "\e90c";

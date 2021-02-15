@@ -1,0 +1,47 @@
+footer{
+    display: flex;
+    align-items: center;
+    height: $gridgutter * 5;
+   // @extend .paddingtoponeandhalf;
+   // @extend .paddingbottomdouble;
+   font-size: 12px;
+    ul{
+        list-style-type: none;
+        li{
+            padding-bottom: 19px;
+        
+            a{
+                @extend .small;
+               // color: darken($white, 30%);
+                &:hover{
+                    color: $graylight;
+                }
+            }
+        }
+    }
+    .stayhomelogo {
+        img {
+        width: $gridgutter * 12;
+        }
+    }
+    .lojas, .ajuda, .politica, .socialmedia {
+        height: 55px;
+        
+
+    }
+    .socialmedia {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        font-size: 14px;
+        padding-top: 8px;
+        .facebook, .instagram {
+           padding-bottom: 19px;
+           display: flex;
+       }
+        img {
+            width: $gridgutter;
+            padding-right: 13px;
+        }
+    }
+}
