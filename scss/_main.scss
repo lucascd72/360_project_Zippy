@@ -183,35 +183,108 @@
 }
 }
 
+//main part
+
 #timeline {
-    height:200vh;
+    height: 100%;
     width:100%;
-    position:relative;
-    background:white;
-}
-    #timeline::after, #timeline::before {
-        height: 200vh;
-        content:' ';
-        position: absolute;
-        top: 0;
-        width: 70%;
-}
-    #timeline::after {
-        right: 0;
+
+    //Left sidebar
+    .main-content-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         background-color: #ED282D;
-}
-    #timeline::before {
-        left: 0;
+        width: 70%;
+    }
+    .main-content {
+        color: #F8F9FA;
+        padding: 20%;
+        margin-bottom: 10px;
+    }
+
+    .label-main-content {
+        font-weight: 400;
+    }
+
+    .title-main-content, .title-main-content-ce, .title-main-content-sz, .title-main-content-d {
+        font-size: 34px;
+        font-weight: 700;
+    }
+    .title-main-content::before {
+        content: url("../imgs/polygon_8.svg");
+        margin-right: 20px;
+    }
+
+    .title-main-content-ce::before {
+        content: url("../imgs/Ellipse_2.svg");
+        margin-right: 20px;
+    }
+
+    .title-main-content-sz::before {
+        content: url("../imgs/vector.svg");
+        margin-right: 20px;
+    }
+
+    .title-main-content-d::before {
+        content: url("../imgs/Polygon_2.svg");
+        margin-right: 20px;
+    }
+
+    //Right sidebar
+    .main-content-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         background-color: #E5E5E5;
+        width: 30%;
+        position: relative;
+        z-index: -1;
+    }
+
+    .timeline {
+        position: absolute;
+        z-index: -1;
+    }
+
+    .img-personal-photo {
+        border-radius: 100%;
+        height: 104px;
+    }
+
+    .timeline-item {
+        background-color: white;
+        border-radius: 60px 8px 8px 60px;
+        width: 100%;
+        padding-left: 0;
+        display: flex;
+        height: 88px;
+        margin-top: 57px;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        // left: 25%;
+    }
+
+    .title-timeline-item {
+        color: #ED282D;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .label-timeline-item {
+        font-size: 22px;
+        font-weight: 500;
+        color: #343A40;
+    }
 }
-
-
 // Reviews
 
 #reviews {
     height: 520px;
     display: flex;
     align-items: center;
+    background-color: #F4F3F3;
 
     .reviews {
         display: flex;
@@ -236,6 +309,8 @@
     .starts-img {
         width: 80px;
         height: 30px;
+        background-image: url("../imgs/vector.svg");
+        background-repeat: repeat-x;
     
     }
     
