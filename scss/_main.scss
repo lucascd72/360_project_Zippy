@@ -100,37 +100,41 @@
   height: 100%;
   width: 100%;
 
-  //Left sidebar
-  .main-content-left {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #ed282d;
-    width: 70%;
-    position: relative;
-    justify-content: center;
-  }
-  .main-content {
-    color: #f8f9fa;
-    padding: 20%;
-    margin-bottom: 10px;
-  }
+    //Left sidebar
+    .main-content-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #ED282D;
+        width: 70%;
+        justify-content: flex-end;
+        z-index: 2;
+    }
+    .main-content {
+        color: #F8F9FA;
+        margin-bottom: 10px;
+        height: 100vh;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        text-align: left;
+        padding: 0 20% 0 20%;
+    }
 
   .label-main-content {
     font-weight: 400;
   }
 
-  .title-main-content,
-  .title-main-content-ce,
-  .title-main-content-sz,
-  .title-main-content-d {
-    font-size: 34px;
-    font-weight: 700;
-  }
-  .title-main-content::before {
-    content: url("../imgs/polygon_8.svg");
-    margin-right: 20px;
-  }
+    .title-main-content, .title-main-content-ce, .title-main-content-sz, .title-main-content-d {
+        font-size: 34px;
+        font-weight: 700;
+        text-align: initial;
+    }
+    .title-main-content::before {
+        content: url("../imgs/polygon_8.svg");
+        margin-right: 20px;
+    }
 
   .title-main-content-ce::before {
     content: url("../imgs/Ellipse_2.svg");
@@ -151,14 +155,23 @@
     display: flex;
     flex-direction: column;
     margin-top: 90px;
-  }
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 100px;
+}
 
-  //Right sidebar
+    //Right sidebar
+
+
+  .timeline-content {
+    display: flex;
+  }
   .main-content-right {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #e5e5e5;
+    background-color: #E5E5E5;
     width: 30%;
     position: relative;
     z-index: -1;
@@ -167,11 +180,8 @@
   .timeline {
     position: absolute;
     z-index: -1;
-  }
-
-  .img-personal-photo {
-    border-radius: 100%;
-    height: 104px;
+    justify-content: center;
+    height: 100%;
   }
 
   .timeline-item {
