@@ -2,7 +2,10 @@ footer{
     display: flex;
     align-items: center;
     height: $gridgutter * 5;
-   font-size: $gridgutter * 0.5;
+    font-size: $gridgutter * 0.5;
+
+  
+
     ul{
         list-style-type: none;
         li{
@@ -15,6 +18,11 @@ footer{
         img {
         width: $gridgutter * 12;
         }
+
+        @media (max-width: $tablet) {
+            width: 186px;
+            height: 56px;
+          }
     }
     .lojas, .ajuda, .politica, .socialmedia {
         height: $gridgutter * 2.29;
@@ -36,4 +44,6 @@ footer{
             padding-right: $gridgutter * 0.54;
         }
     }
+
+   
 }

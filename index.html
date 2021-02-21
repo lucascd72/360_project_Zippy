@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="css/styles.css" />
     <link rel="icon" type="imagem/svg" href="/imgs/timelinelogo.svg" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body class="preload bg-white">
@@ -22,14 +23,14 @@
                         <img class="imgfit" src="imgs/timelinelogo.svg" alt="Edit Store Logo" />
                     </a>
                 </div>
-                <ul id="mainmenu" class="col-8 col-t-6 col-d-8">
+                <ul id="mainmenu" class="col-t-6 col-d-8">
                     <li><a href="#" title="Timeline Zippy">TIMELINE ZIPPY</a></li>
                     <li><a href="#badgesDescription" title="Compromisso">COMPROMISSO</a></li>
                     <li><a href="#timeline" title="Funcionalidades">FUNCIONALIDADES</a></li>
                     <li><a href="#reviewsSection" title="Testemunhos">TESTEMUNHOS</a></li>
                 </ul>
-                <ul id="customermenu" class="col-2 col-t-3 col-d-2 textright">
-                    <li><button aria-label="Transferir" id="installButton"><a href="#">Transferir</a></button></li>
+                <ul id="customermenu" class="col-4 col-t-3 col-d-2 textright">
+                    <li><button aria-label="Transferir" id="installButton" onclick="changeLabel1()"><a href="#">Transferir</a></button></li>
                 </ul>
             </nav>
         </div>
@@ -44,12 +45,12 @@
                     <h1>Creating Stories Together</h1>
                     <p>Esta linha temporal interativa e ó meio mais divertido de <br /> acompanhar o crescimento dos
                         seus filhos e registrar os seus <br /> melhores momentos.</p>
-                    <button aria-label="Transferir"><a href="#">Transferir</a></button>
+                    <button aria-label="Transferir" id="installButton2" onclick="changeLabel2()"><a href="#">Transferir</a></button>
                 </div>
             </div>
             <div class="gridrow heroarrow col-12 col-t-6 col-d-12">
 
-               <a href="#badgesDescription"><img class="imgfit" src="imgs/arrowdown.svg" /></a>
+               <a href="#badgesDescription"><img class="imgfit arrowdown" src="imgs/arrowdown.svg" /></a>
             </div>
         </section>
     </header>
@@ -83,7 +84,8 @@
             <section id="description" class="paddingverticaldouble hero">
                 <div class="gridrow">
                     <div class="col-12 col-t-6 col-d-6 description">
-                        <h2>A Timeline Zippy nasce do nosso compromisso em vos acompanhar nesta jornada.</h2>
+                        <h2 class="description-title-d">A Timeline Zippy nasce do nosso compromisso em vos acompanhar nesta jornada.</h2>
+                        <h2 class="description-title-m">Creating Stories Together</h2>
                         <p class="margintopnone">A Timeline Zippy é a nossa resposta às memórias perdidas. Não
                             pretendemos apenas acompanhar e ajudar o desenvolvimento
                             das crianças, mas também possibilitar aos nossos utilizadores um registo de todas as
@@ -109,8 +111,8 @@
             <div class="col-4 col-t-1 col-d-12 main-content-left">
 
                 <div class="timeline-content col-4 col-t-1 col-d-12">
-                    <div class="timeline-item-list col-4 col-t-1 col-d-4">
-                        <div class="col-4 col-t-1 col-d-12 timeline-item">
+                    <div class="timeline-item-list col-6 col-t-1 col-d-4">
+                        <div class="col-3 col-t-1 col-d-12 timeline-item">
                             <img src="DEV/Zippy-01.png" alt="" class="img-photo">
                             <div class="timeline-text">
                                 <p class="title-timeline-item">10 de Dezembro</p>
@@ -118,7 +120,7 @@
                             </div>
                         </div>
 
-                        <div class="col-4 col-t-1 col-d-4 timeline-item">
+                        <div class="col-3 col-t-1 col-d-4 timeline-item">
                             <img src="DEV/Zippy-02.png" alt="" class="img-photo">
                             <div class="timeline-text">
                                 <p class="title-timeline-item">24 de Outubro</p>
@@ -126,7 +128,7 @@
                             </div>
                         </div>
 
-                        <div class="col-4 col-t-1 col-d-4 timeline-item">
+                        <div class="col-3 col-t-1 col-d-4 timeline-item">
                             <img src="DEV/Zippy-03.png" alt="" class="img-photo">
                             <div class="timeline-text">
                                 <p class="title-timeline-item">8 de Fevereiro</p>
@@ -135,7 +137,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4 col-t-1 col-d-12 main-content">
+                    <div class="col-6 col-t-1 col-d-12 main-content">
                         <div class="img-main-content-div">
                             <img src="imgs/rectangle_26.svg" alt="" class="img-main-content">
                             <img src="DEV/Ellipse_43.svg" alt="" class="img-main-content-white">
@@ -416,37 +418,41 @@
                         alt="We stay home together Zippy logo" />
                     <p>TOGETHER</p>
                 </div>
+                <div class="textandshapes-m">
+                    <p>CREATING STORIES TOGETHER</p><img class="imgfit" src="imgs/geometrical_fig.svg"
+                        alt="We stay home together Zippy logo" />
+                </div>
                 <button aria-label="Transferir"><a href="#">Transferir</a></button>
             </div>
         </section>
     </main>
     <!-- FOOTER -->
     <footer>
-        <div class="gridrow">
-            <div class="col-4 col-d-4 stayhomelogo">
+        <div class="gridrowfull">
+            <div class="col-2 col-d-4 stayhomelogo">
                 <a href="index.html" title="Ir para a página inicial">
                     <img class="imgfit" src="imgs/logo-stay-home.svg" alt="We stay home together Zippy logo" />
                 </a>
             </div>
-            <div class="col-4 col-d-2 lojas">
+            <div class="col-2 col-d-2 lojas">
                 <ul>
                     <li><a href="#" title="Loja Online">Loja Online</a></li>
                     <li><a href="#" title="Lojas Zippy">Lojas Zippy</a></li>
                 </ul>
             </div>
-            <div class="col-4 col-d-2 ajuda">
+            <div class="col-2 col-d-2 ajuda">
                 <ul>
                     <li><a href="#" title=">Ajuda">Ajuda</a></li>
                     <li><a href="#" title="Perguntas Frequentas">Perguntas Frequentas</a></li>
                 </ul>
             </div>
-            <div class="col-4 col-d-2 politica">
+            <div class="col-2 col-d-2 politica">
                 <ul>
                     <li><a href="#" title="Política de Sustentabilidade">Política de Sustentabilidade</a></li>
                     <li><a href="#" title="Política de Privacidade">Política de Privacidade</a></li>
                 </ul>
             </div>
-            <div class="col-2 col-d-2 socialmedia">
+            <div class="col-d-2 socialmedia">
                 <div class="instagram">
                     <img class="imgfit" src="imgs/insta_icon.svg" alt="Edit Store Logo" />
                     <a href="#" title="instagram">Instagram</a>

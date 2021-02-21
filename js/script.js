@@ -10,28 +10,28 @@ let targetPosition = 0;
 
 
 // when you "hover" on in:
-div.addEventListener('mouseover', function(){
+div.addEventListener('mouseover', function () {
   // if you haven't clicked before, pause the animation:
-  if(!isDown)
+  if (!isDown)
     div.style.animationPlayState = "paused";
 });
 
 
 // when your mouser "leaves" the div:
-div.addEventListener('mouseout', function(){
+div.addEventListener('mouseout', function () {
   // if you haven't clicked before, it resetarts the animation:
-    div.style.animation = "marquee-animation 100s linear infinite";
-    div.style.animationPlayState = "running";
-    // this is where the bugfixing should go, sending the animation directly to a defined time, calculated based on the current position. probably using a NEGATIVE div.style.animationDelay
-    let fullDistance = div.offsetWidth;
-    let fullAnimationTime = 200;
-    let animationSpeed = fullDistance / fullAnimationTime;
-    let currentAnimationTime = currentPosition / animationSpeed;
-    div.style.animationDelay = `${currentAnimationTime}s`;
+  div.style.animation = "marquee-animation 100s linear infinite";
+  div.style.animationPlayState = "running";
+  // this is where the bugfixing should go, sending the animation directly to a defined time, calculated based on the current position. probably using a NEGATIVE div.style.animationDelay
+  let fullDistance = div.offsetWidth;
+  let fullAnimationTime = 200;
+  let animationSpeed = fullDistance / fullAnimationTime;
+  let currentAnimationTime = currentPosition / animationSpeed;
+  div.style.animationDelay = `${currentAnimationTime}s`;
 });
 
 // when you click the sliding div:
-div.addEventListener('mousedown', function(e) {
+div.addEventListener('mousedown', function (e) {
   isDown = true;
   // save the starting positions:
   currentPosition = div.offsetLeft;
@@ -40,16 +40,16 @@ div.addEventListener('mousedown', function(e) {
   // remove the animation:
   div.style.animation = "none";
   // set the position again (this goes away when you remove the animation):
- div.style.left = currentPosition + "px"; 
+  div.style.left = currentPosition + "px";
 });
 
 // when release the click:
-document.addEventListener('mouseup', function() {
+document.addEventListener('mouseup', function () {
   isDown = false;
 });
 
 // when you're dragging it:
-document.addEventListener('mousemove', function(event) {
+document.addEventListener('mousemove', function (event) {
   event.preventDefault();
   // if you've clicked inside it before:
   if (isDown) {
@@ -58,9 +58,22 @@ document.addEventListener('mousemove', function(event) {
     // target position:
     let targetPosition = startingPosition + mousePositionX - startingMousePosition;
     // if the target position is within the defined boundaries, move it:
-    if(targetPosition < 0 && targetPosition > -(window.innerWidth * 4)){
-        div.style.left = targetPosition + "px";
+    if (targetPosition < 0 && targetPosition > -(window.innerWidth * 4)) {
+      div.style.left = targetPosition + "px";
     }
     currentPosition = targetPosition;
   }
 });
+
+//Changes label on button
+
+const button1 = document.getElementById("installButton")
+const button2 = document.getElementById("installButton2")
+
+const changeLabel1 = () => {
+  button1.innerText = "A transferir..."
+}
+
+const changeLabel2 = () => {
+  button2.innerText = "Transferência em curso..."
+} 
