@@ -13,24 +13,23 @@
 
     <!-- HEADER -->
 
-
     <header>
         <!-- NAV BAR-->
         <div class="navbarWrapper">
             <nav class="gridrow bg-white">
                 <div class="col-5 col-t-3 col-d-2" id="logo">
-                    <a href="index.html" title="Ir para a página inicial">
+                    <a href="#" title="Home">
                         <img class="imgfit" src="imgs/timelinelogo.svg" alt="Edit Store Logo" />
                     </a>
                 </div>
                 <ul id="mainmenu" class="col-8 col-t-6 col-d-8">
-                    <li><a href="productlist.html" title="Shop">TIMELINE ZIPPY</a></li>
-                    <li><a href="#" title="Fabric">COMPROMISSO</a></li>
-                    <li><a href="#" title="Journal">FUNCIONALIDADES</a></li>
-                    <li><a href="#" title="About">TESTEMUNHOS</a></li>
+                    <li><a href="#" title="Timeline Zippy">TIMELINE ZIPPY</a></li>
+                    <li><a href="#badgesDescription" title="Compromisso">COMPROMISSO</a></li>
+                    <li><a href="#timeline" title="Funcionalidades">FUNCIONALIDADES</a></li>
+                    <li><a href="#reviewsSection" title="Testemunhos">TESTEMUNHOS</a></li>
                 </ul>
                 <ul id="customermenu" class="col-2 col-t-3 col-d-2 textright">
-                    <li><button id="installButton" href="#">Transferir</button></li>
+                    <li><button aria-label="Transferir" id="installButton"><a href="#">Transferir</a></button></li>
                 </ul>
             </nav>
         </div>
@@ -38,44 +37,43 @@
         <section id="hero" class="verticaldouble hero">
             <div class="gridrow">
                 <div class="col-12 col-t-6 heroimg">
-                    <img class="imgfit" src="imgs/imageplaceholder1.svg" />
+                    <img class="imgfit" src="imgs/DEV/IMG_HERO.png" />
                 </div>
                 <div class="col-12 col-t-6 herotext">
-                    <img class="imgfit" src="imgs/biglogo.svg" />
+                    <img class="imgfit" src="imgs/biglogo_hero.svg" />
                     <h1>Creating Stories Together</h1>
                     <p>Esta linha temporal interativa e ó meio mais divertido de <br /> acompanhar o crescimento dos
                         seus filhos e registrar os seus <br /> melhores momentos.</p>
-                    <button id="installButton" href="#">Transferir</button>
+                    <button aria-label="Transferir"><a href="#">Transferir</a></button>
                 </div>
             </div>
             <div class="gridrow heroarrow col-12 col-t-6 col-d-12">
 
-                <img class="imgfit" src="imgs/arrowdown.svg" />
-
+               <a href="#badgesDescription"><img class="imgfit" src="imgs/arrowdown.svg" /></a>
             </div>
         </section>
     </header>
     <main>
         <!-- BADGES -->
-        <section id="test">
+        <section id="badgesDescription">
             <section id="badges" class="badges">
                 <div class="gridrow">
                     <div class="badge col-4 col-t-4 col-d-4">
                         <h3>didática</h3>
                         <div class="badge-image">
-                            <img class="imgfit" src="imgs/badge_1.svg" />
+                            <img class="imgfit" src="imgs/DEV/Zippy-13.png" />
                         </div>
                     </div>
                     <div class="badge col-4 col-t-4 col-d-4">
                         <h3>dinâmica</h3>
                         <div class="badge-image">
-                            <img class="imgfit" src="imgs/badge_2.svg" />
+                            <img class="imgfit longer" src="imgs/DEV/Zippy-14.png" />
                         </div>
                     </div>
                     <div class="badge col-4 col-t-4 col-d-4">
                         <h3>divertida</h3>
                         <div class="badge-image">
-                            <img class="imgfit" src="imgs/badge_3.svg" />
+                            <img class="imgfit wider" src="imgs/DEV/Zippy-15.png" />
                         </div>
                     </div>
                 </div>
@@ -93,7 +91,7 @@
                             filhos para que nunca mais voltem a ser esquecidas.</p>
                     </div>
                     <div class="col-12 col-t-6">
-                        <img class="imgfit" src="imgs/imageplaceholder2.svg" />
+                        <img class="imgfit" src="imgs/DEV/Hero.2.png" />
                     </div>
                 </div>
             </section>
@@ -263,65 +261,133 @@
            
                 <div class="col-12"  id="reviewsRow">
                   
-                    <div class="comments col-3 items">
-                        <img src="imgs/Ellipse_42.svg" alt="Reviews photos" class="img-personal-photo"> </br>
+                    <div class="comments col-4 items">
+                        <img src="imgs/Reviews/review_avatar1.png" alt="Reviews photos" class="img-personal-photo"> </br>
                         <p class="starts-img"></p>
-                        <p> Excelente iniciativa da Zippy! Agora guardo os momentos
-                            vida dos meus filhos e faço as minhas compras
-                            de forma rápida e divertida.</p>
+                        <p> Excelente iniciativa da Zippy! Agora guardo os momentos da vida dos meus filhos e faço as minhas compras de forma rápida e divertida.</p>
                     </div>
-                    <div class="col-3 items">
-                        <img src="imgs/polygon_1.svg" alt="" class="img-reviews-polygon">
+                    <div class="col-4 items">
+                        <img src="imgs/Reviews/polygon_red5.svg" alt="Polygon" class="img-reviews-polygon rotate">
                     </div>
-                    <div class="comments col-3 items">
-                        <img src="imgs/Ellipse_42.svg" alt="Reviews photos" class="img-personal-photo"> </br>
+                    <div class="comments col-4 items">
+                        <img src="imgs/Reviews/review_avatar2.png" alt="Reviews photos" class="img-personal-photo"> </br>
                         <p class="starts-img"></p>
-                        <p> Excelente iniciativa da Zippy! Agora guardo os momentos
-                            vida dos meus filhos e faço as minhas compras
-                            de forma rápida e divertida.</p>
+                        <p>Não consigo largar! Adiciono todos os momentos especiais para mais tarde recordar.</p>
                     </div>
-                    <div class="col-3 items">
-                        <img src="imgs/rectangle_26.svg" alt="" class="img-reviews-rectangle">
+                    <div class="col-4 items">
+                        <img src="imgs/Reviews/rectangle_yellow.svg" alt="Polygon" id="test" class="img-reviews-rectangle rotate">
                     </div>
-                    <div class="comments col-3 items">
-                        <img src="imgs/Ellipse_42.svg" alt="Reviews photos" class="img-personal-photo"> </br>
+                    <div class="comments col-4 items">
+                        <img src="imgs/Reviews/review_avatar3.png" alt="Reviews photos" class="img-personal-photo"> </br>
                         <p class="starts-img"></p>
-                        <p> Excelente iniciativa da Zippy! Agora guardo os momentos
-                            vida dos meus filhos e faço as minhas compras
-                            de forma rápida e divertida.</p>
+                        <p> Além de adorar guardar estes pequenos momentos, comprar roupa para as minhas filhotas ficou muito mais fácil  e rápido. </p>
                     </div>
-                    <div class="col-3 items">
-                        <img src="imgs/polygon_1.svg" alt="" class="img-reviews-polygon">
+                    <div class="col-4 items">
+                        <img src="imgs/Reviews/polygon_red6.svg" alt="Polygon" class="img-reviews-polygon6 rotate">
                     </div>
-                      <div class="comments col-3 items">
-                        <img src="imgs/Ellipse_42.svg" alt="Reviews photos" class="img-personal-photo"> </br>
+                      <div class="comments col-4 items">
+                        <img src="imgs/Reviews/review_avatar4.png" alt="Reviews photos" class="img-personal-photo"> </br>
                         <p class="starts-img"></p>
-                        <p> Excelente iniciativa da Zippy! Agora guardo os momentos
-                            vida dos meus filhos e faço as minhas compras
-                            de forma rápida e divertida.</p>
+                        <p> Adoramos! Temos feito atividades muito divertidas com os nossos filhos todos os fins-de-semana.</p>
                     </div>
-                    <div class="col-3 items">
-                        <img src="imgs/polygon_1.svg" alt="" class="img-reviews-polygon">
+                    <div class="col-4 items">
+                        <img src="imgs/Reviews/polygon_yellow3.svg" alt="Polygon" class="img-reviews-triangle rotate">
                     </div>
-                    <div class="comments col-3 items">
-                        <img src="imgs/Ellipse_42.svg" alt="Reviews photos" class="img-personal-photo"> </br>
+                    <div class="comments col-4 items">
+                        <img src="imgs/Reviews/review_avatar5.png" alt="Reviews photos" class="img-personal-photo"> </br>
                         <p class="starts-img"></p>
-                        <p> Excelente iniciativa da Zippy! Agora guardo os momentos
-                            vida dos meus filhos e faço as minhas compras
-                            de forma rápida e divertida.</p>
+                        <p>Comecei a usar a Timeline Zippy aos 6 meses de gravidez. É tão giro olhar para trás e ver todos os pequenos momentos!</p>
                     </div>
-                    <div class="col-3 items">
-                        <img src="imgs/rectangle_26.svg" alt="" class="img-reviews-rectangle">
+                    <div class="col-4 items">
+                        <img src="imgs/Reviews/rectangle red.svg" alt="Polygon" class="img-reviews-rectangle rotate">
                     </div>
                     <div class="comments col-3 items">
-                        <img src="imgs/Ellipse_42.svg" alt="Reviews photos" class="img-personal-photo"> </br>
+                        <img src="imgs/Reviews/review_avatar6.png" alt="Reviews photos" class="img-personal-photo"> </br>
                         <p class="starts-img"></p>
-                        <p> Excelente iniciativa da Zippy! Agora guardo os momentos
-                            vida dos meus filhos e faço as minhas compras
-                            de forma rápida e divertida.</p>
+                        <p>Nota-se que é feita a pensar nas mães e nos pais :)</p>
                     </div>
-                    <div class="col-3 items">
-                        <img src="imgs/polygon_1.svg" alt="" class="img-reviews-polygon">
+                    <div class="col-4 items">
+                        <img src="imgs/Reviews/polygon_yellow6.svg" alt="Polygon" class="img-reviews-polygon6 rotate">
+                    </div>
+                    <div class="comments col-4 items">
+                        <img src="imgs/Reviews/review_avatar7.png" alt="Reviews photos" class="img-personal-photo"> </br>
+                        <p class="starts-img"></p>
+                        <p>Útil e divertida! Recomendo :)</p>
+                    </div>
+                    <div class="col-4 items">
+                        <img src="imgs/Reviews/polygon_red3.svg" alt="Polygon" class="img-reviews-triangle rotate">
+                    </div>
+                    <div class="comments col-4 items">
+                        <img src="imgs/Reviews/review_avatar8.png" alt="Reviews photos" class="img-personal-photo"> </br>
+                        <p class="starts-img"></p>
+                        <p>Adoramos desde o primeiro dia!</p>
+                    </div>
+                    <div class="col-4 items">
+                        <img src="imgs/Reviews/rectangle_yellow.svg" alt="Polygon" class="img-reviews-elipse rotate">
+                    </div>
+                     <div class="comments col-4 items">
+                        <img src="imgs/Reviews/review_avatar1.png" alt="Reviews photos" class="img-personal-photo"> </br>
+                        <p class="starts-img"></p>
+                        <p> Excelente iniciativa da Zippy! Agora guardo os momentos da vida dos meus filhos e faço as minhas compras de forma rápida e divertida.</p>
+                    </div>
+                    <div class="col-4 items">
+                        <img src="imgs/Reviews/polygon_red5.svg" alt="Polygon" class="img-reviews-polygon rotate">
+                    </div>
+                    <div class="comments col-4 items">
+                        <img src="imgs/Reviews/review_avatar2.png" alt="Reviews photos" class="img-personal-photo"> </br>
+                        <p class="starts-img"></p>
+                        <p>Não consigo largar! Adiciono todos os momentos especiais para mais tarde recordar.</p>
+                    </div>
+                    <div class="col-4 items">
+                        <img src="imgs/Reviews/rectangle_yellow.svg" alt="Polygon" id="test" class="img-reviews-rectangle rotate">
+                    </div>
+                    <div class="comments col-4 items">
+                        <img src="imgs/Reviews/review_avatar3.png" alt="Reviews photos" class="img-personal-photo"> </br>
+                        <p class="starts-img"></p>
+                        <p> Além de adorar guardar estes pequenos momentos, comprar roupa para as minhas filhotas ficou muito mais fácil  e rápido. </p>
+                    </div>
+                    <div class="col-4 items">
+                        <img src="imgs/Reviews/polygon_red6.svg" alt="Polygon" class="img-reviews-polygon6 rotate">
+                    </div>
+                      <div class="comments col-4 items">
+                        <img src="imgs/Reviews/review_avatar4.png" alt="Reviews photos" class="img-personal-photo"> </br>
+                        <p class="starts-img"></p>
+                        <p> Adoramos! Temos feito atividades muito divertidas com os nossos filhos todos os fins-de-semana.</p>
+                    </div>
+                    <div class="col-4 items">
+                        <img src="imgs/Reviews/polygon_yellow3.svg" alt="Polygon" class="img-reviews-triangle rotate">
+                    </div>
+                    <div class="comments col-4 items">
+                        <img src="imgs/Reviews/review_avatar5.png" alt="Reviews photos" class="img-personal-photo"> </br>
+                        <p class="starts-img"></p>
+                        <p>Comecei a usar a Timeline Zippy aos 6 meses de gravidez. É tão giro olhar para trás e ver todos os pequenos momentos!</p>
+                    </div>
+                    <div class="col-4 items">
+                        <img src="imgs/Reviews/rectangle red.svg" alt="Polygon" class="img-reviews-rectangle rotate">
+                    </div>
+                    <div class="comments col-3 items">
+                        <img src="imgs/Reviews/review_avatar6.png" alt="Reviews photos" class="img-personal-photo"> </br>
+                        <p class="starts-img"></p>
+                        <p>Nota-se que é feita a pensar nas mães e nos pais :)</p>
+                    </div>
+                    <div class="col-4 items">
+                        <img src="imgs/Reviews/polygon_yellow6.svg" alt="Polygon" class="img-reviews-polygon6 rotate">
+                    </div>
+                    <div class="comments col-4 items">
+                        <img src="imgs/Reviews/review_avatar7.png" alt="Reviews photos" class="img-personal-photo"> </br>
+                        <p class="starts-img"></p>
+                        <p>Útil e divertida! Recomendo :)</p>
+                    </div>
+                    <div class="col-4 items">
+                        <img src="imgs/Reviews/polygon_red3.svg" alt="Polygon" class="img-reviews-triangle rotate">
+                    </div>
+                    <div class="comments col-4 items">
+                        <img src="imgs/Reviews/review_avatar8.png" alt="Reviews photos" class="img-personal-photo"> </br>
+                        <p class="starts-img"></p>
+                        <p>Adoramos desde o primeiro dia!</p>
+                    </div>
+                    <div class="col-4 items">
+                        <img src="imgs/Reviews/rectangle_yellow.svg" alt="Polygon" class="img-reviews-elipse rotate">
                     </div>
                 </div>
          
@@ -335,7 +401,7 @@
                         alt="We stay home together Zippy logo" />
                     <p>TOGETHER</p>
                 </div>
-                <button id="installButton" href="#">Transferir</button>
+                <button aria-label="Transferir"><a href="#">Transferir</a></button>
             </div>
         </section>
     </main>

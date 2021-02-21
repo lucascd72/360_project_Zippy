@@ -20,11 +20,11 @@ div.addEventListener('mouseover', function(){
 // when your mouser "leaves" the div:
 div.addEventListener('mouseout', function(){
   // if you haven't clicked before, it resetarts the animation:
-    div.style.animation = "marquee-animation 200s linear infinite";
+    div.style.animation = "marquee-animation 100s linear infinite";
     div.style.animationPlayState = "running";
     // this is where the bugfixing should go, sending the animation directly to a defined time, calculated based on the current position. probably using a NEGATIVE div.style.animationDelay
     let fullDistance = div.offsetWidth;
-    let fullAnimationTime = 400;
+    let fullAnimationTime = 200;
     let animationSpeed = fullDistance / fullAnimationTime;
     let currentAnimationTime = currentPosition / animationSpeed;
     div.style.animationDelay = `${currentAnimationTime}s`;

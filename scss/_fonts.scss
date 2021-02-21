@@ -29,7 +29,7 @@ html{
     font-family: $bodyfont, sans-serif;
     color: $graydark;
     font-weight: 350;
-    line-height: 1.618; // the golden ratio, baby!
+    line-height: 1.618; 
     // Setting base REM for different breakpoints:
     font-size: 14px; //ch
     @media(min-width: $tablet){
@@ -40,35 +40,31 @@ html{
     }
 }
 
-/* ===================== */
 /* ======= LINKS ======= */
-/* ===================== */
-a{
-  @extend .animate;
-  text-decoration: none;
-  color:$gray; //ch
-  &:hover{
-    color: $gray;
-  }
-}
 
-/* ======================== */
+a{
+  text-decoration: none;
+  color: $gray; //ch
+  }
+
+
+
 /* ======= HEADINGS ======= */
-/* ======================== */
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: $titlesfont, sans-serif;
   font-weight: 300;
-  // remove default heading margins, 'cause fuck'em!
+
   margin: 0;
-  line-height: 1.414; // the square root of "2"
+  line-height: 1.414; 
 }
 h1, .h1, h2, .h2{
   font-size: 2.2rem;
 }
 
-/* ============================== */
+
 /* ======= TEXT ALIGNMENT ======= */
-/* ============================== */
+
 .textleft{
   text-align: left;
 }
@@ -79,41 +75,9 @@ h1, .h1, h2, .h2{
   text-align: right;
 }
 
-/* ===================== */
+
 /* ======= OTHER ======= */
-/* ===================== */
+
 small, .small{
   font-size: 0.8rem;
 }
-.uppercase{
-  text-transform: uppercase;
-}
-/*.central-link{
-  @extend .margintophalf;
-  @extend .textcenter;
-  width: 100%;
-  a{
-    @extend .bg-graydark;
-    @extend .white;
-    @extend .fancytext;
-    display: inline-block;
-    padding: $gridgutter / 3 $gridgutter / 2;
-    &:hover{
-      background-color: $black;
-    }
-  }
-}*/
-
-/*.central-link-light{
-  @extend .margintophalf;
-  @extend .textcenter;
-  width: 100%;
-  a{
-    @extend .fancytext;
-    display: inline-block;
-    padding: $gridgutter / 3 $gridgutter / 2;
-    &:hover{
-      color: $gray;
-    }
-  }
-}*/
