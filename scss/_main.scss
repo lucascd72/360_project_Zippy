@@ -136,7 +136,87 @@ padding-top: $gridgutter * 2;
         flex-direction: column;
         text-align: left;
         padding: 0 20% 0 20%;
+        position: relative;
     }
+
+    .img-main-content-div {
+       display: flex;
+       width: 100%;
+       justify-content: center;
+       direction: rtl;
+
+       .img-main-content {
+         position: absolute;
+         width: 117px;
+         right: 60%;
+         top: 8%;
+       }
+
+       .img-main-content-second {
+        position: absolute;
+        width: 117px;
+        right: 60%;
+        top: -10%;
+      }
+
+       .img-main-content-yellow-second {
+         width: 68px;
+         position: absolute;
+         right: 20%;
+         bottom: 60%;
+       }
+
+       .img-main-content-white {
+        width: 147px;
+        position: absolute;
+        right: 20%;
+        top: 18%;
+       }
+
+       .img-main-content-white-first {
+        width: 95px;
+        position: absolute;
+        right: 35%;
+        top: 8%;
+       }
+
+       .img-main-content-yellow {
+         width: 146px;
+         position: absolute;
+         right: 0%;
+         top: 8%;
+       }
+
+       .img-main-content-white-second {
+        width: 146px;
+        position: absolute;
+        right: 70%;
+        top: 8%;
+      }
+
+      .img-main-content-last {
+        position: absolute;
+        width: 117px;
+        right: 60%;
+        top: -5%;
+      }
+
+      .img-main-content-yellow-last {
+        width: 146px;
+        position: absolute;
+        right: 20%;
+        top: 8%;
+      }
+
+      .img-main-content-white-last {
+        width: 103px;
+        position: absolute;
+        right: 80%;
+        bottom: 8%;
+      }
+    }
+
+
 
   .label-main-content {
     font-weight: 400;
@@ -174,7 +254,7 @@ padding-top: $gridgutter * 2;
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 100px;
+    left: 5%;
 }
 
     //Right sidebar
@@ -182,6 +262,11 @@ padding-top: $gridgutter * 2;
 
   .timeline-content {
     display: flex;
+  }
+
+  .img-photo {
+    width: 104px;
+    height: 104px;
   }
   .main-content-right {
     display: flex;
@@ -202,15 +287,13 @@ padding-top: $gridgutter * 2;
 
   .timeline-item {
     background-color: white;
-    border-radius: 60px 8px 8px 60px;
+    border-radius: 90px 8px 8px 90px;
     width: 20vw;
     padding-left: 0;
     display: flex;
-    height: 100px;
     margin-top: 70px;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
   }
 
   .timeline-text {
