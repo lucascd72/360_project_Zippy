@@ -1,4 +1,9 @@
+html {
+scroll-behavior: smooth;
+
 .badges {
+padding-top: $gridgutter * 2;
+
   background-color: $primary;
 
   height: $gridgutter * 5.3;
@@ -28,17 +33,19 @@
         height: 120px;
         width: 90px;
       }
+      .wider {
+      width: 102px;
+      height: 125px;
+      }
+      .longer {
+        width: 90px;
+        height: 125px;
+      }
     }
   }
 }
 
-#imgfit-h {
-  transform: rotate(345deg);
-  height: 553px;
-  width: 417px;
-}
-
-#test {
+#badgesDescription {
   height: 100vh;
 }
 #description {
@@ -96,6 +103,9 @@
       cursor: pointer;
       width: 186px;
       height: 40px;
+      a {
+          color: $primary;
+      }
     }
   }
 }
@@ -317,10 +327,10 @@
   #reviewsRow {
     display: flex;
     // align-items: center;
-    animation: marquee-animation 200s linear infinite;
+    animation: marquee-animation 100s linear infinite;
     animation-delay: 0s;
     overflow: hidden;
-    width: 200vw;
+    width: 600vw;
 
     position: absolute;
     text-align: center;
@@ -328,9 +338,11 @@
 
     .items {
       /* assuming there are 10 of them (only 5 will be shown) */
-      width: 10%;
-      // float: left;
-      // box-sizing: border-box;
+       width: 15%;
+       float: left;
+       box-sizing: border-box;
+       padding: 30px;
+       //align-self: flex-start;
     }
 
     @keyframes marquee-animation {
@@ -338,7 +350,7 @@
         left: 0;
       }
       100% {
-        left: -100vw; /* use half of the width of their container, so the repeating aspect works correctly */
+        left: -300vw; /* use half of the width of their container, so the repeating aspect works correctly */
       }
     }
     p {
@@ -363,12 +375,43 @@
     }
 
     .img-reviews-polygon {
-      height: 217.23px;
-      width: 217.23px;
+      height: 230px;
+      width: 230px;
     }
+    .img-reviews-polygon6 {
+    height: 180px;
+    width: 180px;
+    }
+
     .img-reviews-rectangle {
       height: 196.8px;
       width: 189.6px;
     }
+    .img-reviews-triangle {
+    height: 180px;
+    width: 180px;
+    }
+    .img-reviews-elipse {
+    height: 170px;
+    width: 170px;
+    }
+
+.rotate {
+    animation: rotation 80s infinite linear;
+}
+.rotate:hover {
+animation-play-state: paused;
+
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
   }
+}
 }

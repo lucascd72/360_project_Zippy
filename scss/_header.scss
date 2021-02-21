@@ -1,12 +1,5 @@
 body {
- /* #promobar {
-    font-size: 0.7rem;
-    line-height: $gridgutter;
-    letter-spacing: 1px;
-    @media (min-width: $desktop) {
-      letter-spacing: 1px;
-    }
-  }*/
+
   > header {
       .navbarWrapper {
           background-color: $white;
@@ -25,20 +18,16 @@ body {
         background-color: $white;
      // padding-top: $gridgutter;
     
-      @media (min-width: $tablet) {
-       // padding-bottom: $gridgutter / 2;
-      }
+     
       
       #logo {
         height: $gridgutter * 1.5;
       margin-top: - $gridgutter * 0.5;
         > a {
           display: inline-block;
-          width: 104px;
+          width: $gridgutter * 4.33;
           height: auto;
           box-sizing: border-box;
-         // padding: $gridgutter / 3;
-         
         }
       }
       #installButton {
@@ -46,9 +35,18 @@ body {
         color: $white;
         border: none;
         cursor: pointer;
-        width: 186px;
-        height: 32px;
-       // transition: background 250ms ease-in-out, transform 150ms ease;
+        width: $gridgutter * 7.75;
+        height: $gridgutter * 1.3;
+        transition: background-color 250ms ease-in-out;
+       outline: none;
+       a {
+       font-family: $bodyfont;
+        color: $white;
+        font-size: $gridgutter * 0.7;
+       }
+      }
+      #installButton:hover {
+        background-color: #e74045;
       }
       ul {
         height: $gridgutter * 1.5;
@@ -58,15 +56,10 @@ body {
           display: inline-block;
           a {
             display: inline-block;
-            text-transform: uppercase;
             font-weight: 400;
             font-size: 0.75rem;
             line-height: $gridgutter * 1.5;
             height: $gridgutter * 1.5;
-            letter-spacing: 1px;
-            @media (min-width: $desktop) {
-              letter-spacing: 2px;
-            }
           }
         }
         &#mainmenu {
@@ -104,8 +97,8 @@ body {
       justify-content: flex-end;
    img {
           margin-top: $gridgutter * 2.5;
-          width: $gridgutter * 22.6;
-          height: $gridgutter * 21.6;
+          width: $gridgutter * 21.11;
+          height: $gridgutter * 29.344;
       }
   }
   .herotext{
@@ -127,15 +120,26 @@ body {
         cursor: pointer;
         width: 186px;
         height: 40px;
+        a {
+          color: $primary;
+        }
      }
   }
   .heroarrow {
  
       display: flex;
+      position: absolute;
+      bottom: $gridgutter;
       justify-content: center;
       align-items: center;
       img {
+          opacity: 0.6;
           width: $gridgutter * 2;
+cursor: pointer;
+
+      }
+      img:hover {
+        opacity: 1;
       }
   }
 }
