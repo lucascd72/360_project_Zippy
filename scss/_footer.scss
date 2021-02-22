@@ -4,6 +4,11 @@ footer{
     height: $gridgutter * 5;
     font-size: $gridgutter * 0.5;
 
+    @media (max-width: $tablet) {
+        display: flex;
+        width: 100%;
+      }
+
   
 
     ul{
@@ -17,12 +22,12 @@ footer{
     .stayhomelogo {
         img {
         width: $gridgutter * 12;
-        }
 
         @media (max-width: $tablet) {
-            width: 186px;
+            width: 156px;
             height: 56px;
           }
+        }
     }
     .lojas, .ajuda, .politica, .socialmedia {
         height: $gridgutter * 2.29;

@@ -172,6 +172,18 @@ padding-top: $gridgutter * 2;
         width: 70%;
         justify-content: flex-end;
         z-index: 2;
+
+        @media (max-width: $tablet) {
+          width: 100%;
+        }
+    }
+
+    #white {
+
+      @media (max-width: $tablet) {
+        background-color: #f4f3f3;
+        width: 100vw;
+      }
     }
     .main-content {
         color: #F8F9FA;
@@ -184,6 +196,12 @@ padding-top: $gridgutter * 2;
         text-align: left;
         padding: 0 20% 0 20%;
         position: relative;
+
+        @media (max-width: $tablet) {
+          padding: 0;
+          height: 50vh;
+
+        }
     }
 
     .img-main-content-div {
@@ -263,6 +281,13 @@ padding-top: $gridgutter * 2;
       }
     }
 
+    .img-main-content-div {
+
+      @media (max-width: $tablet) {
+        display: none;
+      }
+    }
+
 
 
   .label-main-content {
@@ -273,6 +298,7 @@ padding-top: $gridgutter * 2;
         font-size: 34px;
         font-weight: 700;
         text-align: initial;
+
     }
     .title-main-content::before {
         content: url("../imgs/polygon_8.svg");
@@ -302,6 +328,13 @@ padding-top: $gridgutter * 2;
     align-items: center;
     position: absolute;
     left: 5%;
+
+    @media (max-width: $tablet) {
+      position: relative;
+      align-items: inherit;
+      width: 100%;
+      justify-content: space-between;
+    }
 }
 
     //Right sidebar
@@ -309,6 +342,11 @@ padding-top: $gridgutter * 2;
 
   .timeline-content {
     display: flex;
+
+    @media (max-width: $tablet) {
+      position: relative;
+      flex-direction: column;
+    }
   }
 
   .img-photo {
@@ -323,6 +361,10 @@ padding-top: $gridgutter * 2;
     width: 30%;
     position: relative;
     z-index: -1;
+
+    @media (max-width: $tablet) {
+      display: none;
+    }
   }
 
   .timeline {
@@ -345,6 +387,10 @@ padding-top: $gridgutter * 2;
 
   .timeline-text {
     text-align: right;
+
+    @media (max-width: $tablet) {
+      width: 100%;
+    }
   }
 
   .title-timeline-item {

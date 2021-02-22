@@ -1782,6 +1782,17 @@ html #timeline .main-content-left {
   justify-content: flex-end;
   z-index: 2;
 }
+@media (max-width: 760px) {
+  html #timeline .main-content-left {
+    width: 100%;
+  }
+}
+@media (max-width: 760px) {
+  html #timeline #white {
+    background-color: #f4f3f3;
+    width: 100vw;
+  }
+}
 html #timeline .main-content {
   color: #F8F9FA;
   margin-bottom: 10px;
@@ -1793,6 +1804,12 @@ html #timeline .main-content {
   text-align: left;
   padding: 0 20% 0 20%;
   position: relative;
+}
+@media (max-width: 760px) {
+  html #timeline .main-content {
+    padding: 0;
+    height: 50vh;
+  }
 }
 html #timeline .img-main-content-div {
   display: flex;
@@ -1860,6 +1877,11 @@ html #timeline .img-main-content-div .img-main-content-white-last {
   right: 80%;
   bottom: 8%;
 }
+@media (max-width: 760px) {
+  html #timeline .img-main-content-div {
+    display: none;
+  }
+}
 html #timeline .label-main-content {
   font-weight: 400;
 }
@@ -1893,8 +1915,22 @@ html #timeline .timeline-item-list {
   position: absolute;
   left: 5%;
 }
+@media (max-width: 760px) {
+  html #timeline .timeline-item-list {
+    position: relative;
+    align-items: inherit;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
 html #timeline .timeline-content {
   display: flex;
+}
+@media (max-width: 760px) {
+  html #timeline .timeline-content {
+    position: relative;
+    flex-direction: column;
+  }
 }
 html #timeline .img-photo {
   width: 104px;
@@ -1908,6 +1944,11 @@ html #timeline .main-content-right {
   width: 30%;
   position: relative;
   z-index: -1;
+}
+@media (max-width: 760px) {
+  html #timeline .main-content-right {
+    display: none;
+  }
 }
 html #timeline .timeline {
   position: absolute;
@@ -1927,6 +1968,11 @@ html #timeline .timeline-item {
 }
 html #timeline .timeline-text {
   text-align: right;
+}
+@media (max-width: 760px) {
+  html #timeline .timeline-text {
+    width: 100%;
+  }
 }
 html #timeline .title-timeline-item {
   color: #ed282d;
@@ -2033,6 +2079,12 @@ footer {
   height: 120px;
   font-size: 12px;
 }
+@media (max-width: 760px) {
+  footer {
+    display: flex;
+    width: 100%;
+  }
+}
 footer ul {
   list-style-type: none;
 }
@@ -2043,8 +2095,8 @@ footer .stayhomelogo img {
   width: 288px;
 }
 @media (max-width: 760px) {
-  footer .stayhomelogo {
-    width: 186px;
+  footer .stayhomelogo img {
+    width: 156px;
     height: 56px;
   }
 }
