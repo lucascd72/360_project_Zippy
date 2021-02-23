@@ -1958,6 +1958,63 @@ html #timeline .timeline-item-list {
   left: 5%;
 }
 
+html #timeline .scrollingSectionsContainer .scrollingSections {
+  display: flex;
+  flex-direction: row;
+}
+
+html #timeline .scrollingSectionsContainer .scrollingSections .redPart {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+html #timeline .scrollingSectionsContainer .scrollingSections .whitePart div .scrollItemOne {
+  transition: all 0.75s ease-in-out;
+  top: 50px;
+}
+
+html #timeline .scrollingSectionsContainer .scrollingSections .whitePart div .scrollItemOne .hiddenup {
+  top: -100px;
+  opacity: 0;
+}
+
+html #timeline .scrollingSectionsContainer .scrollingSections .whitePart div .scrollItemOne .hiddendown {
+  top: 200px;
+  opacity: 0;
+}
+
+html #timeline .scrollingSectionsContainer .scrollingSections .whitePart div .scrollItemTwo {
+  transition: all 1s ease-in-out;
+  top: 125px;
+}
+
+html #timeline .scrollingSectionsContainer .scrollingSections .whitePart div .scrollItemTwo .hiddenup {
+  top: -25px;
+  opacity: 0;
+}
+
+html #timeline .scrollingSectionsContainer .scrollingSections .whitePart div .scrollItemTwo .hiddendown {
+  top: 275px;
+  opacity: 0;
+}
+
+html #timeline .scrollingSectionsContainer .scrollingSections .whitePart div .scrollItemThree {
+  transition: all 1.25s ease-in-out;
+  top: 200px;
+}
+
+html #timeline .scrollingSectionsContainer .scrollingSections .whitePart div .scrollItemThree .hiddenup {
+  top: 50px;
+  opacity: 0;
+}
+
+html #timeline .scrollingSectionsContainer .scrollingSections .whitePart div .scrollItemThree .hiddendown {
+  top: 350px;
+  opacity: 0;
+}
+
 html #timeline .timeline-content {
   display: flex;
 }
@@ -1993,6 +2050,7 @@ html #timeline .timeline-item {
   margin-top: 70px;
   justify-content: space-between;
   align-items: center;
+  z-index: 1000;
 }
 
 html #timeline .timeline-text {

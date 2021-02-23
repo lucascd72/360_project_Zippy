@@ -116,7 +116,7 @@ padding-top: $gridgutter * 2;
   height: 100%;
   width: 100%;
 
-    //Left sidebar
+    //Left sidebar   <- probably this is RIGHT side
     .main-content-left {
         display: flex;
         flex-direction: column;
@@ -256,8 +256,70 @@ padding-top: $gridgutter * 2;
     position: absolute;
     left: 5%;
 }
+.scrollingSectionsContainer {
 
-    //Right sidebar
+
+.scrollingSections {
+    display: flex;
+	flex-direction: row;
+
+    .redPart {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+    }
+    .whitePart {
+
+
+        div {
+
+           
+            .scrollItemOne {
+        transition: all 0.75s ease-in-out;
+        top: 50px;
+        .hiddenup {
+        top: -100px;
+        opacity: 0;
+        }
+        .hiddendown {
+        top: 200px;
+        opacity: 0;
+        }
+            }
+        .scrollItemTwo {
+        transition: all 1s ease-in-out;
+        top: 125px;
+        .hiddenup {
+            top: -25px;
+            opacity: 0;
+        }
+        .hiddendown {
+            top: 275px;
+            opacity: 0;
+        }
+    }
+        .scrollItemThree {
+            transition: all 1.25s ease-in-out;
+            top: 200px;
+            .hiddenup {
+                top: 50px;
+                opacity: 0;
+            }
+            .hiddendown {
+                top: 350px;
+                opacity: 0;
+            }
+        }
+
+
+        }
+    }
+}
+}
+// Right sidebar  <- probably this is LEFT side
+
 
 
   .timeline-content {
@@ -268,6 +330,7 @@ padding-top: $gridgutter * 2;
     width: 104px;
     height: 104px;
   }
+  //white background on the left side
   .main-content-right {
     display: flex;
     flex-direction: column;
@@ -284,6 +347,7 @@ padding-top: $gridgutter * 2;
     justify-content: center;
     height: 100%;
   }
+// .thescrollything .whitepart > div
 
   .timeline-item {
     background-color: white;
@@ -294,6 +358,8 @@ padding-top: $gridgutter * 2;
     margin-top: 70px;
     justify-content: space-between;
     align-items: center;
+    z-index: 1000;
+ 
   }
 
   .timeline-text {
