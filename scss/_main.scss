@@ -164,7 +164,8 @@ padding-top: $gridgutter * 2;
   width: 100%;
 
     //Left sidebar   <- probably this is RIGHT side
-    .main-content-left {
+    //  IT WAS ON SCROLLYTHINGScONTAINER AND ON THE OTHER DIV, HIGHER ONE
+    /*.main-content-left {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -176,7 +177,7 @@ padding-top: $gridgutter * 2;
         @media (max-width: $tablet) {
           width: 100%;
         }
-    }
+    }*/
 
     #white {
 
@@ -185,9 +186,10 @@ padding-top: $gridgutter * 2;
         width: 100vw;
       }
     }
+    //red part
     .main-content {
         color: #F8F9FA;
-        margin-bottom: 10px;
+     //   margin-bottom: 10px;
         height: 100vh;
         display: flex;
         align-items: flex-start;
@@ -203,7 +205,7 @@ padding-top: $gridgutter * 2;
 
         }
     }
-
+// THIS PART ACTUALLY MAKES SENSE - GEOMETRICAL SHAPES ON THE RED PART
     .img-main-content-div {
        display: flex;
        width: 100%;
@@ -287,7 +289,7 @@ padding-top: $gridgutter * 2;
         display: none;
       }
     }
-
+// THIS PAR TMAKES SENSE - THE END
 
 
   .label-main-content {
@@ -319,89 +321,154 @@ padding-top: $gridgutter * 2;
     content: url("../imgs/Polygon_2.svg");
     margin-right: 20px;
   }
-
+// CHECK THIS FOR THE MOBILE VERSION
+/*
   .timeline-item-list {
+    //MOVED TO whitePart
     display: flex;
     flex-direction: column;
     margin-top: 90px;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    left: 5%;
-
+   position: absolute;
+    left: 5%;*/
+/*
     @media (max-width: $tablet) {
       position: relative;
       align-items: inherit;
       width: 100%;
       justify-content: space-between;
     }
-}
+}*/
+// CHECK THIS - THE END
+
 .scrollingSectionsContainer {
 
 
 .scrollingSections {
     display: flex;
 	flex-direction: row;
-
+  width: 100vw;
+// I STOPPED HERE, MESSING WITH THE RED PART
     .redPart {
-    height: 100vh;
+ height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
- 
+    width: 75%;
+  //  position: relative;
+    
+	background-color: red;
+	color: white;
+	text-align: center;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
     }
     .whitePart {
+     // position: relative;
+      width: 25%;
+      display:flex;
+      flex-direction: column;
+      margin-top: 90px;
+      justify-content: center;
+      align-items: center;
+     // position: absolute;
+      left: 5%;
 
+        .scrollItem {
 
-        div {
+  /*  background-color: white;
+    border-radius: 90px 8px 8px 90px;
+    width: 20vw;
+    padding-left: 0;
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+*/
+/*
+        pointer-events: none;
+       position: fixed;
+      top: 0;
+          z-index: 1000;
+          opacity: 1;
+        //  background-color: gray;
+        top: 100px;
+        left: 20px;
+          width: 50%;
+          padding: 20px;*/
+ position: fixed;
+  z-index: 1000;
+  opacity: 1;
+	width: 30%;
+ height: 80px;
 
-           
-            .scrollItemOne {
+   background-color: white;
+    border-radius: 90px 8px 8px 90px;
+    //width: 20vw;
+   
+    left: 200px;
+    padding-left: 0;
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    justify-content: space-between;
+    align-items: center;
+ 
+    }
+        .scrollItemOne {
         transition: all 0.75s ease-in-out;
         top: 50px;
-        .hiddenup {
+            }
+.scrollItemOne.hiddenup {
         top: -100px;
         opacity: 0;
         }
-        .hiddendown {
+.scrollItemOne.hiddendown {
+
         top: 200px;
         opacity: 0;
-        }
-            }
+        }   
         .scrollItemTwo {
         transition: all 1s ease-in-out;
         top: 125px;
-        .hiddenup {
+        }
+.scrollItemTwo.hiddenup {
             top: -25px;
             opacity: 0;
         }
-        .hiddendown {
+.scrollItemTwo.hiddendown {
             top: 275px;
             opacity: 0;
         }
-    }
         .scrollItemThree {
             transition: all 1.25s ease-in-out;
             top: 200px;
-            .hiddenup {
+        }
+.scrollItemThree.hiddenup {
+
                 top: 50px;
                 opacity: 0;
             }
-            .hiddendown {
+.scrollItemThree.hiddendown {
+
                 top: 350px;
                 opacity: 0;
             }
-        }
+        
 
-
-        }
+        
     }
 }
 }
 // Right sidebar  <- probably this is LEFT side
 
 
-
+// CHECK THIS FOR MOBILE LATER
+/*
   .timeline-content {
     display: flex;
 
@@ -409,13 +476,18 @@ padding-top: $gridgutter * 2;
       position: relative;
       flex-direction: column;
     }
-  }
+  }*/
+  // CHECK THIS FOR MOBILE - THE END
 
   .img-photo {
-    width: 104px;
-    height: 104px;
+    width: 116px;
+    height: 116px;
+    z-index: 1500;
   }
+  /*
   //white background on the left side
+  //THIS IS MY WHITE LEFT SIDE 
+  /// THIS WAS ON THE IMAGINE - RED LINE
   .main-content-right {
     display: flex;
     flex-direction: column;
@@ -424,20 +496,26 @@ padding-top: $gridgutter * 2;
     width: 30%;
     position: relative;
     z-index: -1;
-
+ 
     @media (max-width: $tablet) {
       display: none;
     }
-  }
+  }*/
 
-  .timeline {
+  .redLine {
     position: absolute;
     z-index: -1;
+    left: 40px;
     justify-content: center;
-    height: 100%;
+    height: 3350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
   }
 // .thescrollything .whitepart > div
-
+// MOVED TO .WHITEPART > DIV
+/*
   .timeline-item {
     background-color: white;
     border-radius: 90px 8px 8px 90px;
@@ -449,10 +527,11 @@ padding-top: $gridgutter * 2;
     align-items: center;
     z-index: 1000;
  
-  }
+  }*/
 
   .timeline-text {
     text-align: right;
+    
 
     @media (max-width: $tablet) {
       width: 100%;
@@ -473,7 +552,9 @@ padding-top: $gridgutter * 2;
     margin: 0;
   }
 }
-// Reviews
+
+
+// REVIEWS SECTION  
 
 #reviewsSection {
   height: 520px;

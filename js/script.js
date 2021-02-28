@@ -77,3 +77,78 @@ const changeLabel1 = () => {
 const changeLabel2 = () => {
   button2.innerText = "Transferência em curso..."
 } 
+
+// MAIN PART SCROLL
+/* just set this variable at start so that we know we are not animating anything at the moment: */
+let animating = false;
+/*  */
+let scrollFunction = (scrollPosition) => {
+
+  
+	/* for every ".thescrollything" element (you can add as many as you like, so the code is fairly flexible) */
+	document.querySelectorAll( '.scrollingSections' ).forEach(function( scrollyThing ){
+		/* 
+			inside this loop, three conditions: 
+				1. current ".thescrollything" is above
+				2. current ".thescrollything" is on the screen
+				3. current ".thescrollything" is below
+			in each of these conditions, add or remove the appropriate classes (check the CSS for their properties)
+			NOTE: you might have to tweak these condition values so that the "cute things" appear or disappear more consistently
+		*/
+      console.log("Scroll position is " + scrollPosition);
+		if( scrollPosition < scrollyThing.offsetTop){
+      console.log("FIRST CONDITION");
+      console.log("ScrollyThing.offestTop is " + scrollyThing.offsetTop);
+      console.log("WINDOW.InnerHeight  is " + window.innerHeight);
+
+     
+			scrollyThing.querySelectorAll('.whitePart > div').forEach(function( cuteThing ){
+				cuteThing.classList.remove('hiddenup');
+				cuteThing.classList.add('hiddendown');
+			});
+		} else if( scrollPosition >= scrollyThing.offsetTop  && scrollPosition < scrollyThing.offsetTop + window.innerHeight){
+      console.log("SECOND CONDITION");
+    /*  console.log("ScrollyThing.offestTop is " + scrollyThing.offsetTop);
+      console.log("WINDOW.InnerHeight  is " + window.innerHeight);
+      console.log("OffsetTop of first id is " + document.getElementById("one").offsetTop);
+      console.log("OffsetTop of second id is " + document.getElementById("two").offsetTop);
+      console.log("OffsetTop of third id is " + document.getElementById("three").offsetTop);*/
+      //console.log("ScrollyThing.offestTop is " + scrollyThing.offsetTop);
+			scrollyThing.querySelectorAll('.whitePart > div').forEach(function( cuteThing ){
+				cuteThing.classList.remove('hiddendown');
+				cuteThing.classList.remove('hiddenup');
+			});
+		} else {
+      console.log("THIRD CONDITION");
+      /* console.log("ScrollyThing.offestTop is " + scrollyThing.offsetTop);
+      console.log("WINDOW.InnerHeight  is " + window.innerHeight);
+      console.log("OffsetTop of first id is " + document.getElementById("one").offsetTop);
+      console.log("OffsetTop of second id is " + document.getElementById("two").offsetTop);
+      console.log("OffsetTop of third id is " + document.getElementById("three").offsetTop);*/
+      
+			scrollyThing.querySelectorAll('.whitePart > div').forEach(function( cuteThing ){
+				cuteThing.classList.remove('hiddendown');
+				cuteThing.classList.add('hiddenup');
+			});
+		}
+	});
+}
+
+
+/* On scroll, get the position, request an animation frame, if none is still active and then call the Scrolling function with the current position as a parameter
+The "animating" variable only prevents the browser from being overloaded with animation frames if we scroll too fast */
+document.addEventListener('scroll', function (e) {
+	let scrollPosition = window.scrollY;
+	if (!animating) {
+		window.requestAnimationFrame(function () {
+			scrollFunction(scrollPosition);
+			animating = false;
+		});
+		animating = true;
+	}
+});
+
+
+/* If the page loads with a scroll already set, this helps prevent bugs: */
+scrollFunction(window.scrollY);
+

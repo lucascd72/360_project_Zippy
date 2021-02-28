@@ -1882,22 +1882,76 @@ html #creatingstories div button a {
 html #timeline {
   height: 100%;
   width: 100%;
-}
+  /*.main-content-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #ED282D;
+        width: 70%;
+        justify-content: flex-end;
+        z-index: 2;
 
-html #timeline .main-content-left {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #ED282D;
-  width: 70%;
-  justify-content: flex-end;
-  z-index: 2;
-}
+        @media (max-width: $tablet) {
+          width: 100%;
+        }
+    }*/
+  /*
+  .timeline-item-list {
+    //MOVED TO whitePart
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    justify-content: center;
+    align-items: center;
+   position: absolute;
+    left: 5%;*/
+  /*
+    @media (max-width: $tablet) {
+      position: relative;
+      align-items: inherit;
+      width: 100%;
+      justify-content: space-between;
+    }
+}*/
+  /*
+  .timeline-content {
+    display: flex;
 
-@media (max-width: 760px) {
-  html #timeline .main-content-left {
-    width: 100%;
-  }
+    @media (max-width: $tablet) {
+      position: relative;
+      flex-direction: column;
+    }
+  }*/
+  /*
+  //white background on the left side
+  //THIS IS MY WHITE LEFT SIDE 
+  /// THIS WAS ON THE IMAGINE - RED LINE
+  .main-content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E5E5;
+    width: 30%;
+    position: relative;
+    z-index: -1;
+ 
+    @media (max-width: $tablet) {
+      display: none;
+    }
+  }*/
+  /*
+  .timeline-item {
+    background-color: white;
+    border-radius: 90px 8px 8px 90px;
+    width: 20vw;
+    padding-left: 0;
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+ 
+  }*/
 }
 
 @media (max-width: 760px) {
@@ -1909,7 +1963,6 @@ html #timeline .main-content-left {
 
 html #timeline .main-content {
   color: #F8F9FA;
-  margin-bottom: 10px;
   height: 100vh;
   display: flex;
   align-items: flex-start;
@@ -2040,28 +2093,10 @@ html #timeline .title-main-content-d::before {
   margin-right: 20px;
 }
 
-html #timeline .timeline-item-list {
-  display: flex;
-  flex-direction: column;
-  margin-top: 90px;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  left: 5%;
-}
-
-@media (max-width: 760px) {
-  html #timeline .timeline-item-list {
-    position: relative;
-    align-items: inherit;
-    width: 100%;
-    justify-content: space-between;
-  }
-}
-
 html #timeline .scrollingSectionsContainer .scrollingSections {
   display: flex;
   flex-direction: row;
+  width: 100vw;
 }
 
 html #timeline .scrollingSectionsContainer .scrollingSections .redPart {
@@ -2069,102 +2104,124 @@ html #timeline .scrollingSectionsContainer .scrollingSections .redPart {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 75%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-html #timeline .scrollingSectionsContainer .scrollingSections .whitePart div .scrollItemOne {
+html #timeline .scrollingSectionsContainer .scrollingSections .whitePart {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+  justify-content: center;
+  align-items: center;
+  left: 5%;
+}
+
+html #timeline .scrollingSectionsContainer .scrollingSections .whitePart .scrollItem {
+  /*  background-color: white;
+    border-radius: 90px 8px 8px 90px;
+    width: 20vw;
+    padding-left: 0;
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+*/
+  /*
+        pointer-events: none;
+       position: fixed;
+      top: 0;
+          z-index: 1000;
+          opacity: 1;
+        //  background-color: gray;
+        top: 100px;
+        left: 20px;
+          width: 50%;
+          padding: 20px;*/
+  position: fixed;
+  z-index: 1000;
+  opacity: 1;
+  width: 30%;
+  height: 80px;
+  background-color: white;
+  border-radius: 90px 8px 8px 90px;
+  left: 200px;
+  padding-left: 0;
+  display: flex;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+html #timeline .scrollingSectionsContainer .scrollingSections .whitePart .scrollItemOne {
   transition: all 0.75s ease-in-out;
   top: 50px;
 }
 
-html #timeline .scrollingSectionsContainer .scrollingSections .whitePart div .scrollItemOne .hiddenup {
+html #timeline .scrollingSectionsContainer .scrollingSections .whitePart .scrollItemOne.hiddenup {
   top: -100px;
   opacity: 0;
 }
 
-html #timeline .scrollingSectionsContainer .scrollingSections .whitePart div .scrollItemOne .hiddendown {
+html #timeline .scrollingSectionsContainer .scrollingSections .whitePart .scrollItemOne.hiddendown {
   top: 200px;
   opacity: 0;
 }
 
-html #timeline .scrollingSectionsContainer .scrollingSections .whitePart div .scrollItemTwo {
+html #timeline .scrollingSectionsContainer .scrollingSections .whitePart .scrollItemTwo {
   transition: all 1s ease-in-out;
   top: 125px;
 }
 
-html #timeline .scrollingSectionsContainer .scrollingSections .whitePart div .scrollItemTwo .hiddenup {
+html #timeline .scrollingSectionsContainer .scrollingSections .whitePart .scrollItemTwo.hiddenup {
   top: -25px;
   opacity: 0;
 }
 
-html #timeline .scrollingSectionsContainer .scrollingSections .whitePart div .scrollItemTwo .hiddendown {
+html #timeline .scrollingSectionsContainer .scrollingSections .whitePart .scrollItemTwo.hiddendown {
   top: 275px;
   opacity: 0;
 }
 
-html #timeline .scrollingSectionsContainer .scrollingSections .whitePart div .scrollItemThree {
+html #timeline .scrollingSectionsContainer .scrollingSections .whitePart .scrollItemThree {
   transition: all 1.25s ease-in-out;
   top: 200px;
 }
 
-html #timeline .scrollingSectionsContainer .scrollingSections .whitePart div .scrollItemThree .hiddenup {
+html #timeline .scrollingSectionsContainer .scrollingSections .whitePart .scrollItemThree.hiddenup {
   top: 50px;
   opacity: 0;
 }
 
-html #timeline .scrollingSectionsContainer .scrollingSections .whitePart div .scrollItemThree .hiddendown {
+html #timeline .scrollingSectionsContainer .scrollingSections .whitePart .scrollItemThree.hiddendown {
   top: 350px;
   opacity: 0;
 }
 
-html #timeline .timeline-content {
-  display: flex;
-}
-
-@media (max-width: 760px) {
-  html #timeline .timeline-content {
-    position: relative;
-    flex-direction: column;
-  }
-}
-
 html #timeline .img-photo {
-  width: 104px;
-  height: 104px;
+  width: 116px;
+  height: 116px;
+  z-index: 1500;
 }
 
-html #timeline .main-content-right {
+html #timeline .redLine {
+  position: absolute;
+  z-index: -1;
+  left: 40px;
+  justify-content: center;
+  height: 3350px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #E5E5E5;
-  width: 30%;
-  position: relative;
-  z-index: -1;
-}
-
-@media (max-width: 760px) {
-  html #timeline .main-content-right {
-    display: none;
-  }
-}
-
-html #timeline .timeline {
-  position: absolute;
-  z-index: -1;
-  justify-content: center;
-  height: 100%;
-}
-
-html #timeline .timeline-item {
-  background-color: white;
-  border-radius: 90px 8px 8px 90px;
-  width: 20vw;
-  padding-left: 0;
-  display: flex;
-  margin-top: 70px;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 1000;
 }
 
 html #timeline .timeline-text {
